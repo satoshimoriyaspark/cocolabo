@@ -1,0 +1,17 @@
+{
+  "active_html_pages": 10,
+  "unused_html_pages": 52,
+  "unused_fixed_pages": [
+    "about",
+    "flow",
+    "gallery",
+    "specialschool",
+    "springschool"
+  ],
+  "blog": "Listing and all 46 articles unused; incoming links removed; source retained",
+  "missing_active_pages": [
+    "for-parent",
+    "message"
+  ],
+  "removed_links": 176
+}
