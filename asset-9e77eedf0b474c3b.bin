@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#"><meta charset="utf-8">
+<title>葛飾区亀有にあるプログラミングとロボット工作を学べる探求学習教室ココラボロボット＆プログラミングスクールです。</title>
+<meta name="description" content="葛飾区亀有にあるプログラミングとロボット工作を学べる探求学習教室ココラボロボット＆プログラミングスクールです。近隣の足立区、墨田区、台東区、松戸市、柏市、埼玉県川口市、三郷市などからも参加してくれる生徒もおり、小学校や中学校、インターナショナルスクール、院内学校での出張ワークショップを含め、東京、千葉、埼玉、神奈川など広域にて活動をしております。">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="//assets.peraichi.com/template_root/v2/template_files/css/style.css?1790825642" rel="stylesheet">
+<link href="//assets.peraichi.com/template_root/v2/template_files/css/template-ed.css?1790825642" rel="stylesheet">
+
+<script src="//assets.peraichi.com/js/const_common.js"></script><script src="//assets.peraichi.com/js/const_env.js"></script><script src="//webfont.fontplus.jp/accessor/script/fontplus.js?5qoPx6QyJ8k%3D&aa=1" charset="utf-8"></script>
+<link rel="icon" href="https://cdn.peraichi.com/userData/57d5e478-0d28-475b-ad09-173a0a0000c2/img/5d8599830bae6/original.png">
+
+<meta property="og:image" content="https://cdn.peraichi.com/userData/57d5e478-0d28-475b-ad09-173a0a0000c2/img/5d86aad540415/original.jpg">
+<meta property="og:url" content="https://coco-labo.net/robot">
+<meta property="og:title" content="ココラボロボットスクール">
+<meta property="og:site_name" content="葛飾区亀有にあるプログラミングとロボット工作を学べる教室ココラボロボット＆プログラミングスクールです。">
+<meta property="og:type" content="website">
+<meta property="og:description" content="葛飾区亀有にあるプログラミングとロボット工作を学べる探求学習教室ココラボロボット＆プログラミングスクールです。近隣の足立区、墨田区、台東区、松戸市、柏市、埼玉県川口市、三郷市などからも参加してくれる生徒もおり、小学校や中学校、インターナショナルスクール、院内学校での出張ワークショップを含め、東京、千葉、埼玉、神奈川など広域にて活動をしております。"><script type="text/javascript" src="//assets.peraichi.com/js/libs/lazysizes.min.js?1790825641"></script><script type="text/javascript" src="//assets.peraichi.com/js/lazyLoad.js?1790825641"></script><script type="text/javascript" src="//assets.peraichi.com/cjs/dist/peraichi_setting.js?1790825969"></script>
+<meta name="google-site-verification" content="RirDBLcgZq10TdM-nyxt4EzLBtyes2FECY2R3tF2HQk">
+
+<link rel="canonical" href="https://coco-labo.net/robot/" /><link rel="stylesheet" type="text/css" href="https://s3-ap-northeast-1.amazonaws.com/s3.peraichi.com/pageCustomStylesheets/505105/themeColor_1622888232.css"><style type="text/css">.pera1-form .hp { display:none !important; visibility:hidden !important; }</style>
+<script src="https://captcha.peraichi.com/js/captcha.production.js"></script><script src="//assets.peraichi.com/js/custom_captcha.js"></script></head>
+  <body class="theme-base theme-ed fp_maru_folk_medium template-theme-default fp_default" data-template-name="ed-courses" style="overflow: auto; padding-top: 219px;" data-is-initial-val-of-template-theme="0" data-is-available-on-template-theme="true">
+        <div class="s_navigation_fixed p-header-fixed p-header-floating-btn pera1-section block" data-structure="b-premium-header-floating-btn--fixed" data-block-name="フローティングヘッダー（PC上部固定/スマホ上下固定）" id="section-22" data-optional-block-settings-key="0">
+  <div class="only-edit u-align-center"><i class="fa fa-info-circle"></i>このブロックは画面サイズによって見た目が変化する特殊なブロックです<br>※編集・削除ができる項目も画面サイズによって異なります<br><br>詳細はヘルプページの「フローティングメニューブロックの編集」をご確認ください</div>
+  <div class="p-header-floating-btn__top grid-wrapper grid-wrapper--lg">
+    <div class="p-header-floating-btn__top-outer-row">
+      <div class="p-header-floating-btn__top-btns">
+        <div class="p-header-floating-btn__top-btns-row">
+          <div class="p-header-floating-btn__text-pc u-prmd">
+            <div class="u-mbxs pera1-removable">
+              <div data-structure="e-text" class="pera1-editable font-size-20px">03-6662-4440</div>
+            </div>
+            <div class="pera1-removable">
+              <div data-structure="e-text" class="pera1-editable font-size-14px">受付時間:平日10:00~19:00</div>
+            </div>
+          </div>
+          <div class="p-header-floating-btn__editable-btn pera1-removable">
+            <div class="c-btn c-btn--sm"><a class="pera1-editable" href="#section-15" data-structure="e-btn" target="_self" style="background-color: rgb(40, 195, 212);">問い合わせ</a>
+            </div>
+          </div>
+          
+          <div class="p-header-floating-btn__sp-icon-btn pera1-removable" style="">
+            <div class="c-img c-img--responsive c-img--responsive-v"><img class="pera1-editable" src="//cdn.peraichi.com/template_root/v2/s3bucket/images/default/ic_tel_square.svg" alt="" data-structure="e-img" style="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="p-header p-header-floating-btn__bottom">
+    <div class="grid-wrapper grid-wrapper--lg p-navigation__wrapper">
+      <div class="p-navigation row">
+        <div class="c-inner">
+          <div class="p-header__nav-heading p-header__logo c-img c-img--responsive u-align-left pera1-removable"><img class="pera1-editable" src="//cdn.peraichi.com/userData/57d5e478-0d28-475b-ad09-173a0a0000c2/img/633f2baa63412/original.png" alt="" data-structure="e-img" style="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        <div class="pera1-section block" data-structure="b-ed-breadcrums" data-block-name="パンくずリスト" id="section-2" data-optional-block-settings-key="1">
+          <div class="pera1-bg-editable" style="background-image: url(//cdn.peraichi.com/template_root/v2/s3bucket/images/templates/ed/bg_ccc.png)" data-bg-key="0">
+            <div class="c-wrapper c-wrapper--lg">
+              <div class="c-inner c-inner--xs c-inner--one-elem c-inner--vertical">
+                    <div data-structure="e-text" class="pera1-editable"><a title="ココラボTOP" href="https://coco-labo.net/" data-mce-href="https://coco-labo.net/">TOP</a>&nbsp;&gt; ココラボロボットスクール</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pera1-section block" data-structure="b-img--full" data-block-name="画像(横幅フルサイズ)" id="section-3" data-optional-block-settings-key="2">
+          <div class="c-img c-img--full u-align-center"><img class="pera1-editable" src="//cdn.peraichi.com/userData/57d5e478-0d28-475b-ad09-173a0a0000c2/img/5d86a2982a9cc/original.jpg" alt="" data-structure="e-img">
+          </div>
+        </div>
+        <div class="pera1-section block" data-structure="b-ed-sentence" data-block-name="文章" id="section-4" data-optional-block-settings-key="3">
+          <div class="c-bg-img c-bg-img--cover pera1-bg-editable" data-bg-key="1">
+            <div class="c-wrapper c-wrapper--sm u-text-shadow u-align-center">
+              <div class="c-inner c-inner--lg c-inner--vertical">
+                <div class="p-ed-heading-decoration font-round c-heading u-mbmd pera1-removable">
+                      <h2 data-structure="e-heading" class="pera1-editable"><strong>スクール概要</strong></h2>
+                </div>
+                <div class="u-mbmd pera1-removable">
+                      <div data-structure="e-text" class="pera1-editable"><p style="text-align: left;" data-mce-style="text-align: left;">葛飾区亀有にあるプログラミングとロボット工作を学べる探求学習教室ココラボキッズクリエイターアカデミーです。こども達の探求する力や問題解決をする力を伸ばすため、電子工作やモーターやセンサーを使ったプログラミングで「プログラミングコンテンスト」入賞を目指すプログラミング教室(ロボットテクノロジーコース／ゲームクリエイターコース)と、自分だけの改造ロボットを作ったり、電子工作やプログラミングの応用などを行うプログラミング寺子屋の2つの教室を開催しております。年間通してイベントも行っており、IoT活用、ドローン制御、ゲームプログラミングなど、オリジナルカリキュラムも豊富です。&nbsp;</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pera1-section block" data-structure="b-ed-cards-horizontal" data-block-name="左画像カード" id="section-5" data-optional-block-settings-key="4">
+          <div class="c-bg-img c-bg-img--cover pera1-bg-editable" style="background-image: url(//cdn.peraichi.com/template_root/v2/s3bucket/images/templates/ed/bg_eee.png)" data-bg-key="2">
+            <div class="c-wrapper c-wrapper--lg">
+              <div class="c-inner c-inner--lg c-inner--vertical">
+                <div class="u-align-center">
+                  <div class="p-ed-heading-decoration c-heading font-round u-mbmd u-mbmd--sp pera1-removable">
+                        <h2 class="pera1-editable" data-structure="e-heading"><strong>コースの特徴</strong></h2>
+                  </div>
+                </div>
+                <div class="p-ed-cards-horizontal">
+                      <div class="grid-wrapper u-mblg pera1-removable" data-structure="m-card-horizontal">
+                        <div class="row row-item-gutter--none center-xs">
+                          <div class="col-xs-12 col-sm-4 basis-auto-sm pera1-removable">
+                            <div class="c-img c-img--responsive"><img class="pera1-editable" src="//cdn.peraichi.com/userData/57d5e478-0d28-475b-ad09-173a0a0000c2/img/5d86a4339aa3d/original.jpg" alt="" data-structure="e-img">
+                            </div>
+                          </div>
+                          <div class="col-xs-12 col-sm">
+                            <div class="c-inner p-card-horizontal-inner u-align-left">
+                              <div class="font-round u-mbmd pera1-removable">
+                                    <div data-structure="e-text" class="pera1-editable font-size-24px"><strong>1.なんでも自分で作っちゃおう！</strong></div>
+                              </div>
+                              <div class="u-mbmd pera1-removable">
+                                    <div data-structure="e-text" class="pera1-editable">ロボットはもちろんのこと、コンピューターからセンサーまで子供たちがパーツから自分たちで作ります。モノゴトの仕組みを知ることを通して、世の中の仕組みを学びながら、自らの興味関心を大切にして、モチベーションを引き出して行きます。</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="grid-wrapper u-mblg pera1-removable" data-structure="m-card-horizontal">
+                        <div class="row row-item-gutter--none center-xs">
+                          <div class="col-xs-12 col-sm-4 basis-auto-sm pera1-removable">
+                            <div class="c-img c-img--responsive"><img class="pera1-editable" src="//cdn.peraichi.com/userData/57d5e478-0d28-475b-ad09-173a0a0000c2/img/5d86a009e9bc4/original.jpg" alt="" data-structure="e-img">
+                            </div>
+                          </div>
+                          <div class="col-xs-12 col-sm">
+                            <div class="c-inner p-card-horizontal-inner u-align-left">
+                              <div class="font-round u-mbmd pera1-removable">
+                                    <div data-structure="e-text" class="pera1-editable font-size-24px"><strong>2. 教え合い、学び合あおう！</strong></div>
+                              </div>
+                              <div class="u-mbmd pera1-removable">
+                                    <div data-structure="e-text" class="pera1-editable">教室内では、先生と生徒という縦関係ではなく、スタッフも子供たちも一緒になって、ロボットやプログラミングに熱中します。わからないことを聴くのは講師でも友達でもOK！時にはライバルとして競いながらも、お互いの協力関係の中で学ぶことを理想としています。</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="grid-wrapper u-mblg pera1-removable" data-structure="m-card-horizontal" data-elem-name="card-horizontal">
+                        <div class="row row-item-gutter--none center-xs">
+                          <div class="col-xs-12 col-sm-4 basis-auto-sm pera1-removable">
+                            <div class="c-img c-img--responsive"><img class="pera1-editable" src="//cdn.peraichi.com/userData/57d5e478-0d28-475b-ad09-173a0a0000c2/img/5d86a46721d82/original.jpg" alt="" data-structure="e-img">
+                            </div>
+                          </div>
+                          <div class="col-xs-12 col-sm">
+                            <div class="c-inner p-card-horizontal-inner u-align-left">
+                              <div class="font-round u-mbmd pera1-removable">
+                                    <div data-structure="e-text" class="pera1-editable font-size-24px"><strong>3.チャレンジしよう！</strong></div>
+                              </div>
+                              <div class="u-mbmd pera1-removable">
+                                    <div data-structure="e-text" class="pera1-editable"><p>「PCNプロコン」への参加と入賞を目指していきます。<br>目標を設定することで、ゴールに向かっての時間管理なども学んでいきます。</p><p>それ以外のプロコン、ロボコンなどにも積極的にチャレンジしていきます。</p></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div><div class="grid-wrapper u-mblg pera1-removable" data-structure="m-card-horizontal" data-elem-name="card-horizontal">
+            <div class="row row-item-gutter--none center-xs">
+              
+              <div class="col-xs-12 col-sm">
+                <div class="c-inner p-card-horizontal-inner u-align-left">
+                  <div class="font-round u-mbmd pera1-removable">
+                    <div class="pera1-editable font-size-24px" data-structure="e-text"><strong>3. 見出し</strong></div>
+                  </div>
+                  <div class="u-mbmd pera1-removable">
+                    <div class="pera1-editable" data-structure="e-text">ここをクリックして表示したいテキストを入力してください。テキストは「右寄せ」「中央寄せ」「左寄せ」といった整列方向、「太字」「斜体」「下線」「取り消し線」、「文字サイズ」「文字色」「文字の背景色」など細かく編集することができます。</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+                <div class="grid-wrapper u-mblg pera1-removable pera1-ghost pera1-add pera1-multiple" data-structure="m-card-horizontal" data-elem-name="card-horizontal" data-nosnippet="" style="opacity: 0; height: 50px;">
+            <div class="row row-item-gutter--none center-xs">
+              <div class="col-xs-12 col-sm-4 basis-auto-sm pera1-removable">
+                <div class="c-img c-img--responsive"><img class="pera1-editable" src="//cdn.peraichi.com/template_root/v2/s3bucket/images/templates/ed/im_course-3.png" alt="" data-structure="e-img">
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm">
+                <div class="c-inner p-card-horizontal-inner u-align-left">
+                  <div class="font-round u-mbmd pera1-removable">
+                    <div class="pera1-editable font-size-24px" data-structure="e-text"><strong>3. 見出し</strong></div>
+                  </div>
+                  <div class="u-mbmd pera1-removable">
+                    <div class="pera1-editable" data-structure="e-text">ここをクリックして表示したいテキストを入力してください。テキストは「右寄せ」「中央寄せ」「左寄せ」といった整列方向、「太字」「斜体」「下線」「取り消し線」、「文字サイズ」「文字色」「文字の背景色」など細かく編集することができます。</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pera1-section block" data-structure="b-ed-btn" data-block-name="ボタン" id="section-6" data-optional-block-settings-key="5">
+          <div class="c-bg-img c-bg-img--cover pera1-bg-editable" data-bg-key="3">
+            <div class="c-wrapper u-align-center">
+              <div class="c-inner c-inner--lg c-inner--one-elem c-inner--vertical">
+                <div class="c-btn c-btn--lg c-btn--full c-btn--round font-round"><a class="pera1-editable" href="#section-15" data-structure="e-btn" target="_self" style="">お申し込みはこちらから</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pera1-section block" data-structure="b-ed-cards--3col" data-block-name="上画像カード(3列)" id="section-16" data-optional-block-settings-key="6">
+  <div class="c-bg-img c-bg-img--cover pera1-bg-editable" data-bg-key="4">
+    <div class="c-wrapper c-wrapper--lg u-align-center">
+      <div class="c-inner c-inner--lg c-inner--vertical">
+        <div class="p-ed-heading-decoration c-heading u-mblg u-mbmd--sp font-round pera1-removable">
+          <h2 data-structure="e-heading" class="pera1-editable"><strong>講師紹介</strong></h2>
+        </div>
+        <div class="pera1-removable">
+          <div data-structure="m-ed-card-price">
+            <div class="grid-wrapper grid-wrapper--full">
+              <div class="row center-xs row-item-gutter--lg">
+                <div class="u-mbmd col-xs-12 col-sm-6 col-md-4 pera1-removable">
+                  <div class="c-img c-img--responsive u-mbmd pera1-removable"><img class="pera1-editable" src="//cdn.peraichi.com/userData/57d5e478-0d28-475b-ad09-173a0a0000c2/img/5d86a49ad6de2/original.jpg" alt="" data-structure="e-img">
+                  </div>
+                  <div class="c-heading c-heading--sm u-mbmd font-round pera1-removable">
+                    <div data-structure="e-heading" class="pera1-editable"><b>森谷 哲(さとにい)</b></div>
+                  </div>
+                  <div class="u-mbmd u-align-left pera1-removable">
+                    <div data-structure="e-text" class="pera1-editable"><p>PCN認定講師<br>ゲームクリエイター<br><br>PCN東京の代表講師やタミヤロボットスクール東京先行教室の講師としても活動。フジテレビや総務省などのイベントなどでも講師を務め、全国を駆け回っている。2児の父。<br></p></div>
+                  </div>
+                  
+                  
+                </div>
+                <div class="u-mbmd col-xs-12 col-sm-6 col-md-4 pera1-removable">
+                  <div class="c-img c-img--responsive u-mbmd pera1-removable"><img class="pera1-editable" src="//cdn.peraichi.com/userData/57d5e478-0d28-475b-ad09-173a0a0000c2/img/5d86a5b7577c6/original.jpg" alt="" data-structure="e-img">
+                  </div>
+                  <div class="c-heading c-heading--sm u-mbmd font-round pera1-removable">
+                    <div data-structure="e-heading" class="pera1-editable"><strong>石川 英徳(ひでG)</strong></div>
+                  </div>
+                  <div class="u-mbmd u-align-left pera1-removable">
+                    <div data-structure="e-text" class="pera1-editable">PCN認定講師<br>クリエイティブディレクター<br><br>2016年よりプログラミング講師としての活動を開始し、現在はPCN東京をメインに、PCN湘南でも講師を務める。現役のクリエイティブディレクターとしてデザインも担当。</div>
+                  </div>
+                  
+                  
+                </div>
+                <div class="u-mbmd col-xs-12 col-sm-6 col-md-4 pera1-removable" data-elem-name="ed-card-price">
+                  <div class="c-img c-img--responsive u-mbmd pera1-removable"><img class="pera1-editable" src="//cdn.peraichi.com/userData/57d5e478-0d28-475b-ad09-173a0a0000c2/img/5d86a5c209f3b/original.jpg" alt="" data-structure="e-img">
+                  </div>
+                  <div class="c-heading c-heading--sm u-mbmd font-round pera1-removable">
+                    <div data-structure="e-heading" class="pera1-editable"><b>川原 優(かわちゃん)</b></div>
+                  </div>
+                  <div class="u-mbmd u-align-left pera1-removable">
+                    <div data-structure="e-text" class="pera1-editable">PCN認定講師<br>エンジニア<br><br>現役のエンジニアとして活躍しつつ、PCN仙台でプログラミング講師としての活動を開始。現在はPCN東京で講師を努めつつ、基盤設計など教材制作も担当している。<br></div>
+                  </div>
+                  
+                  
+                </div><div class="u-mbmd col-xs-12 col-sm-6 col-md-4 pera1-removable pera1-ghost pera1-add pera1-multiple" data-elem-name="ed-card-price" style="opacity: 0; height: 50px;" data-nosnippet="">
+                  <div class="c-img c-img--responsive u-mbmd pera1-removable"><img class="pera1-editable" src="//cdn.peraichi.com/template_root/v2/s3bucket/images/templates/ed/im_course-3.png" alt="" data-structure="e-img">
+                  </div>
+                  <div class="c-heading c-heading--sm u-mbmd font-round pera1-removable">
+                    <div class="pera1-editable" data-structure="e-heading"><strong>コース名</strong></div>
+                  </div>
+                  <div class="u-mbmd u-align-left pera1-removable">
+                    <div class="pera1-editable" data-structure="e-text">ここをクリックして表示したいテキストを入力してください。テキストは「右寄せ」「中央寄せ」「左寄せ」といった整列方向、「太字」「斜体」「下線」「取り消し線」、「文字サイズ」「文字色」「文字の背景色」など細かく編集することができます。</div>
+                  </div>
+                  <div class="u-mbmd u-align-left font-round pera1-removable">
+                    <div class="pera1-editable font-size-18px" data-structure="e-text"><strong>0,000円/月</strong></div>
+                  </div>
+                  <div class="c-btn c-btn--full c-btn--round u-mbmd font-round pera1-removable"><a class="pera1-editable" data-structure="e-btn">詳細を見る</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        <div class="pera1-section block" data-structure="b-ed-cards--3col" data-block-name="上画像カード(3列)" id="section-17" data-optional-block-settings-key="7">
+  <div class="c-bg-img c-bg-img--cover pera1-bg-editable" data-bg-key="5">
+    <div class="c-wrapper c-wrapper--lg u-align-center">
+      <div class="c-inner c-inner--lg c-inner--vertical">
+        <div class="p-ed-heading-decoration c-heading u-mblg u-mbmd--sp font-round pera1-removable">
+          <h2 class="pera1-editable" data-structure="e-heading"><strong>コース紹介</strong></h2>
+        </div>
+        <div class="pera1-removable">
+          <div data-structure="m-ed-card-price">
+            <div class="grid-wrapper grid-wrapper--full">
+              <div class="row center-xs row-item-gutter--lg">
+                <div class="u-mbmd col-xs-12 col-sm-6 col-md-4 pera1-removable">
+                  <div class="c-img c-img--responsive u-mbmd pera1-removable"><img class="pera1-editable" src="//cdn.peraichi.com/userData/57d5e478-0d28-475b-ad09-173a0a0000c2/img/5d86a76bd2e3d/original.jpg" alt="" data-structure="e-img">
+                  </div>
+                  <div class="c-heading c-heading--sm u-mbmd font-round pera1-removable">
+                    <div data-structure="e-heading" class="pera1-editable"><strong>プログラミング教室</strong></div>
+                  </div>
+                  <div class="u-mbmd u-align-left pera1-removable">
+                    <div data-structure="e-text" class="pera1-editable">ロボットテクノロジーコースとゲームクリエイターコース(8歳以上)を用意。国産のコンピューターIchigoJamを活用し、BASIC言語でのキーボードタイピングによるプログラミングで論理的思考を楽しみながら学べます。<br>※対象：6歳以上<br></div>
+                  </div>
+                  
+                  
+                </div>
+                <div class="u-mbmd col-xs-12 col-sm-6 col-md-4 pera1-removable">
+                  <div class="c-img c-img--responsive u-mbmd pera1-removable"><img class="pera1-editable" src="//cdn.peraichi.com/userData/57d5e478-0d28-475b-ad09-173a0a0000c2/img/5d86a7760fa1f/original.jpg" alt="" data-structure="e-img">
+                  </div>
+                  <div class="c-heading c-heading--sm u-mbmd font-round pera1-removable">
+                    <div data-structure="e-heading" class="pera1-editable"><b>プログラミング寺子屋</b></div>
+                  </div>
+                  <div class="u-mbmd u-align-left pera1-removable">
+                    <div data-structure="e-text" class="pera1-editable">ロボットを自作したり、改造したり、はたまた電子工作を極めたり、プログラミングの応用をより深く学んでいくコースです。モノゴトの仕組みを理解しつつ、試行錯誤するチカラを身に着けます。<br>※対象：8歳以上<br></div>
+                  </div>
+                  
+                  
+                </div>
+                <div class="u-mbmd col-xs-12 col-sm-6 col-md-4 pera1-removable" data-elem-name="ed-card-price">
+                  <div class="c-img c-img--responsive u-mbmd pera1-removable"><img class="pera1-editable" src="//cdn.peraichi.com/userData/57d5e478-0d28-475b-ad09-173a0a0000c2/img/5d86a7c1b0ab5/original.jpg" alt="" data-structure="e-img">
+                  </div>
+                  <div class="c-heading c-heading--sm u-mbmd font-round pera1-removable">
+                    <div data-structure="e-heading" class="pera1-editable"><strong>出張イベント</strong></div>
+                  </div>
+                  <div class="u-mbmd u-align-left pera1-removable">
+                    <div data-structure="e-text" class="pera1-editable">ロボットプログラミング、ロボット工作の出張イベントも承っております。保育園・幼稚園から学童、地域イベントやショッピングセンターまで、各地のイベントと対象に合わせたカリキュラムをご提案させて頂きます。<br>※対象：4歳〜大人まで</div>
+                  </div>
+                  
+                  
+                </div><div class="u-mbmd col-xs-12 col-sm-6 col-md-4 pera1-removable pera1-ghost pera1-add pera1-multiple" data-elem-name="ed-card-price" style="opacity: 0; height: 50px;" data-nosnippet="">
+                  <div class="c-img c-img--responsive u-mbmd pera1-removable"><img class="pera1-editable" src="//cdn.peraichi.com/template_root/v2/s3bucket/images/templates/ed/im_course-3.png" alt="" data-structure="e-img">
+                  </div>
+                  <div class="c-heading c-heading--sm u-mbmd font-round pera1-removable">
+                    <div class="pera1-editable" data-structure="e-heading"><strong>コース名</strong></div>
+                  </div>
+                  <div class="u-mbmd u-align-left pera1-removable">
+                    <div class="pera1-editable" data-structure="e-text">ここをクリックして表示したいテキストを入力してください。テキストは「右寄せ」「中央寄せ」「左寄せ」といった整列方向、「太字」「斜体」「下線」「取り消し線」、「文字サイズ」「文字色」「文字の背景色」など細かく編集することができます。</div>
+                  </div>
+                  <div class="u-mbmd u-align-left font-round pera1-removable">
+                    <div class="pera1-editable font-size-18px" data-structure="e-text"><strong>0,000円/月</strong></div>
+                  </div>
+                  <div class="c-btn c-btn--full c-btn--round u-mbmd font-round pera1-removable"><a class="pera1-editable" data-structure="e-btn">詳細を見る</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><div class="pera1-section block" data-structure="b-ed-table" data-block-name="表" id="section-9" data-optional-block-settings-key="8">
+          <div class="c-bg-img c-bg-img--cover pera1-bg-editable" data-bg-key="6">
+            <div class="c-wrapper c-wrapper--sm">
+              <div class="c-inner c-inner--lg c-inner--one-elem c-inner--vertical">
+                <div class="u-align-center">
+                  <div class="p-ed-heading-decoration c-heading font-round u-mbmd pera1-removable">
+                        <h2 class="pera1-editable" data-structure="e-heading"><strong>対象・料金など</strong></h2>
+                  </div>
+                </div>
+                <div class="u-ptsm u-pbmd u-align-center pera1-removable">
+                  <div class="u-mbsm pera1-removable">
+                        <div data-structure="e-text" class="pera1-editable font-size-32px"><strong>月額 6,600円〜</strong></div>
+                  </div>
+                  <div class="u-mbsm pera1-removable">
+                        <div data-structure="e-text" class="pera1-editable">前払いチケット制</div>
+                  </div>
+                </div>
+                <div class="p-ed-table c-tr--bdr pera1-removable">
+                      <table data-structure="m-table">
+                        <tbody class="pera1-sortable">
+                              <tr class="pera1-sortable-item pera1-removable" data-structure="e-tr">
+                                    <th data-structure="e-th" class="pera1-editable"><strong>料金体系</strong></th>
+                                    <td data-structure="e-td" class="pera1-editable"><div>入会金：<span style="color: #000000;">16,500円</span><br>受講料：10回分22,000円<br>教材費：初期22,000円(半年毎に6,600円)<br>※全て税込</div></td>
+                              </tr>
+                              <tr class="pera1-sortable-item pera1-removable" data-structure="e-tr">
+                                    <th data-structure="e-th" class="pera1-editable"><strong>開催日程</strong></th>
+                                    <td data-structure="e-td" class="pera1-editable"><div>亀有校：第1第3土曜日　※変動あり<br>9:50-10:50／11:00-12:00</div></td>
+                              </tr>
+                              <tr class="pera1-sortable-item pera1-removable" data-structure="e-tr" data-elem-name="tr">
+                                    <th data-structure="e-th" class="pera1-editable"><strong>その他</strong></th>
+                                    <td data-structure="e-td" class="pera1-editable">出張イベントについては、お気軽にご相談ください。</td>
+                              </tr><tr class="pera1-sortable-item pera1-removable" data-structure="e-tr" data-elem-name="tr">
+                                    <th data-structure="e-th" class="pera1-editable"><strong>教材について</strong></th>
+                                    <td data-structure="e-td" class="pera1-editable"><p>追加でチャレンジしたい子には個別の教材購入もご用意しております。</p><p>・アームロボ：2,800円<br>・カムロボ：3,200円<br>・カブトムシロボ：2,200円<br>・クワガタムシロボ：2,200円<br>・Ichigojam：2,200円<br>・IchigoDake：1,100円<br>・IchigoIgai：1,100円<br>※その他、各種教材を取り揃えています。</p></td>
+                              </tr><tr class="pera1-sortable-item pera1-removable pera1-ghost pera1-add pera1-multiple" data-structure="e-tr" data-elem-name="tr" style="opacity: 0; height: 50px;" data-nosnippet="">
+                <th class="pera1-editable" data-structure="e-th"><strong>見出し</strong></th>
+                <td class="pera1-editable" data-structure="e-td">ここをクリックして表示したいテキストを入力してください。テキストは「右寄せ」「中央寄せ」「左寄せ」といった整列方向、「太字」「斜体」「下線」「取り消し線」、「文字サイズ」「文字色」「文字の背景色」など細かく編集することができます。</td>
+              </tr>
+                        </tbody>
+                      </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="pera1-section block" data-structure="b-premium-cards-img-left" data-block-name="お客様の声" id="section-20" data-optional-block-settings-key="9">
+  <div class="c-bg c-bg-color c-bg-img--cover pera1-bg-editable" data-bg-key="7">
+    <div class="c-wrapper">
+      <div class="c-inner c-inner--lg c-inner--vertical">
+        <div class="c-heading c-heading--block-main u-align-center u-mbmd pera1-removable">
+          <h2 data-structure="e-heading" class="pera1-editable"><strong>保護者様の声</strong></h2>
+        </div>
+        <div class="u-mbmd">
+          <div class="p-premium-cards-img-left__card c-inner" data-structure=" m-premium-card">
+            <div class="p-premium-cards-img-left__img c-img c-img--circle c-img--responsive u-mbmd pera1-removable"><img class="pera1-editable" src="//cdn.peraichi.com/template_root/v2/s3bucket/images/default/im_person_illust.svg" alt="" data-structure="e-img">
+            </div>
+            <div class="p-premium-cards-img-left__body">
+              <div class="u-mbmd u-fslg pera1-removable">
+                <h2 data-structure="e-heading" class="pera1-editable"><b>いつもと違った表情を見れました！</b></h2>
+              </div>
+              <div class="p-m-card-text-name u-mbsm pera1-removable">
+                <div data-structure="e-text" class="pera1-editable">Iさん(お子様は小学生女子)<br><br></div>
+              </div>
+              <div class="p-m-card-text-message u-mbmd pera1-removable">
+                <div data-structure="e-text" class="pera1-editable">いつもはダンスやスポーツなど身体を動かす習い事ばかりだったのですが、ここのスクールに参加して、プログラミングや電子工作などを楽しむ顔は、いつもとはまた違ったキラキラした笑顔でびっくりしました。体系的に教えて貰えることはもちろん子ども達の主体性を尊重してくれるところも感謝しております。</div>
+              </div>
+              <div class="p-premium-cards-img-left__label u-fssm u-color-white pera1-removable">
+                <div class="pera1-editable" data-structure="e-text">VOICE</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="u-mbmd pera1-removable" data-elem-name="m-premium-card">
+          <div class="p-premium-cards-img-left__card c-inner" data-structure=" m-premium-card">
+            <div class="p-premium-cards-img-left__img c-img c-img--circle c-img--responsive u-mbmd pera1-removable"><img class="pera1-editable" src="//cdn.peraichi.com/template_root/v2/s3bucket/images/default/im_person_illust.svg" alt="" data-structure="e-img">
+            </div>
+            <div class="p-premium-cards-img-left__body">
+              <div class="u-mbmd u-fslg pera1-removable">
+                <h2 data-structure="e-heading" class="pera1-editable"><b>プログラミング教室はどこにしようか迷っていました。</b></h2>
+              </div>
+              <div class="p-m-card-text-name u-mbsm pera1-removable">
+                <div data-structure="e-text" class="pera1-editable">Sさん(お子様は小学校3年生)</div>
+              </div>
+              <div class="p-m-card-text-message u-mbmd pera1-removable">
+                <div data-structure="e-text" class="pera1-editable">正直、たくさんのプログラミング教室を見てきましたが、なかなか「ここだ！」というところに出会えず、インターネットで検索していたところ、たまたま見つけて体験会に参加しました。ここに決めた一番の理由はゲームやロボット、ドローンなどカリキュラムが豊富な事。また、先生たちの質も高く子どもを安心して任せられるなと思いました。</div>
+              </div>
+              <div class="p-premium-cards-img-left__label u-fssm u-color-white pera1-removable">
+                <div class="pera1-editable" data-structure="e-text">VOICE</div>
+              </div>
+            </div>
+          </div>
+        </div><div class="u-mbmd pera1-removable pera1-ghost pera1-add pera1-multiple" data-elem-name="m-premium-card" style="opacity: 0; height: 50px;" data-nosnippet="">
+            <div class="p-premium-cards-img-left__card c-inner" data-structure=" m-premium-card">
+              <div class="p-premium-cards-img-left__img c-img c-img--circle c-img--responsive u-mbmd pera1-removable"><img class="pera1-editable" src="//cdn.peraichi.com/template_root/v2/s3bucket/images/default/im_image_square2.svg" alt="" data-structure="e-img">
+              </div>
+              <div class="p-premium-cards-img-left__body">
+                <div class="u-mbmd u-fslg pera1-removable">
+                  <h2 class="pera1-editable" data-structure="e-heading"><strong>小見出し</strong></h2>
+                </div>
+                <div class="p-m-card-text-name u-mbsm pera1-removable">
+                  <div class="pera1-editable" data-structure="e-text">サンプル 太郎</div>
+                </div>
+                <div class="p-m-card-text-message u-mbmd pera1-removable">
+                  <div class="pera1-editable" data-structure="e-text">ここをクリックして表示したいテキストを入力してください。テキストは「右寄せ」「中央寄せ」「左寄せ」といった整列方向、「太字」「斜体」「下線」「取り消し線」、「文字サイズ」「文字色」「文字の背景色」など細かく編集することができます。</div>
+                </div>
+                <div class="p-premium-cards-img-left__label u-fssm u-color-white pera1-removable">
+                  <div class="pera1-editable" data-structure="e-text">VOICE</div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div><div class="pera1-section block" data-structure="b-premium-voices" data-block-name="お客様の声" id="section-21" data-optional-block-settings-key="10">
+  <div class="p-premium-voices c-bg-img c-bg-img--cover pera1-bg-editable" data-bg-key="8">
+    <div class="c-wrapper">
+      <div class="c-inner c-inner--lg c-inner--one-elem c-inner--vertical">
+        <div class="p-premium-voices__heading c-heading c-heading--block-main u-align-center u-mbmd pera1-removable">
+          <h2 data-structure="e-heading" class="pera1-editable"><strong>出張ワークショップの実績も豊富</strong></h2>
+        </div>
+        <div class="grid-wrapper grid-wrapper--full">
+          <div class="row center-xs">
+            <div class="col-sm-4 col-xs-12 pera1-removable">
+              <div class="p-premium-voices__item">
+                <div class="p-premium-voices__img c-img c-img--responsive pera1-removable"><img class="pera1-editable" src="//cdn.peraichi.com/userData/57d5e478-0d28-475b-ad09-173a0a0000c2/img/603fe7477dafc/original.JPG" alt="" data-structure="e-img">
+                </div>
+                <div class="c-inner c-inner--sm c-inner--one-elem u-align-left pera1-removable">
+                  <div data-structure="e-text" class="pera1-editable"><p>神奈川県藤沢市の蔦屋書店さん内T-KIDSシェアスクール湘南さんでの出張ワークショップの様子です。T-KIDSさんは千葉県柏の葉でも不定期にワークショップを開催しています。</p></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-xs-12 pera1-removable">
+              <div class="p-premium-voices__item">
+                <div class="p-premium-voices__img c-img c-img--responsive pera1-removable"><img class="pera1-editable" src="//cdn.peraichi.com/userData/57d5e478-0d28-475b-ad09-173a0a0000c2/img/603fe85544cff/original.jpg" alt="" data-structure="e-img">
+                </div>
+                <div class="c-inner c-inner--sm c-inner--one-elem u-align-left pera1-removable">
+                  <div data-structure="e-text" class="pera1-editable">東京都品川区にあるインターナショナルスクールさんでの出張ワークショップの様子です。未就学児と低学年生向けに英語によるロボットプログラミングのワークショップを開催しました。</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-xs-12 pera1-removable pera1-multiple" data-elem-name="premium-voices">
+              <div class="p-premium-voices__item">
+                <div class="p-premium-voices__img c-img c-img--responsive pera1-removable"><img class="pera1-editable" src="//cdn.peraichi.com/userData/57d5e478-0d28-475b-ad09-173a0a0000c2/img/603fe8af6cd11/original.jpg" alt="" data-structure="e-img">
+                </div>
+                <div class="c-inner c-inner--sm c-inner--one-elem u-align-left pera1-removable">
+                  <div data-structure="e-text" class="pera1-editable">東京都葛飾区の東京理科大学葛飾キャンパスでのクリスマスツリー制作のワークショップの様子です。行政が主催となるイベントにも毎年お呼ばれしてワークショップを実施しています。</div>
+                </div>
+              </div>
+            </div><div class="col-sm-4 col-xs-12 pera1-removable pera1-ghost pera1-add" data-elem-name="premium-voices" style="opacity: 0; height: 50px;">
+              <div class="p-premium-voices__item">
+                <div class="p-premium-voices__img c-img c-img--responsive pera1-removable"><img class="pera1-editable" src="//cdn.peraichi.com/userData/57d5e478-0d28-475b-ad09-173a0a0000c2/img/603fe8af6cd11/original.jpg" alt="" data-structure="e-img">
+                </div>
+                <div class="c-inner c-inner--sm c-inner--one-elem u-align-left pera1-removable">
+                  <div data-structure="e-text" class="pera1-editable">東京都葛飾区の東京理科大学葛飾キャンパスでのクリスマスツリー制作のワークショップの様子です。行政が主催となるイベントにも毎年お呼ばれしてワークショップを実施しています。</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><div class="pera1-section block" data-structure="b-img" data-block-name="画像" data-optional-block-settings-key="11" id="section-23">
+  <div class="c-bg-img c-bg-img--cover pera1-bg-editable" data-bg-key="9">
+    <div class="c-wrapper u-align-center">
+      <div class="c-inner c-inner--md c-inner--one-elem c-inner--vertical">
+        <div class="c-img c-img--responsive"><img class="pera1-editable" src="//cdn.peraichi.com/userData/57d5e478-0d28-475b-ad09-173a0a0000c2/img/4d6f5540-d690-013e-ed5a-0a58a9feac02/1.png" alt="" data-structure="e-img" style="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div><div class="pera1-section block" data-structure="b-hr-svg--2" data-block-name="区切り線(手書き2)" id="section-18" data-optional-block-settings-key="12">
+  <div class="c-bg-img c-bg-img--cover pera1-bg-editable" data-bg-key="10">
+    <hr class="c-hr-origin c-hr-origin--2" data-structure="e-hr-origin--2">
+  </div>
+</div><div class="s_form_premium pera1-section block" data-structure="b-premium-form" data-block-name="フォーム" id="section-15" data-optional-block-settings-key="13">
+  <div class="c-bg-img c-bg-img--cover pera1-bg-editable" style="background-image: url(&quot;//cdn.peraichi.com/userData/57d5e478-0d28-475b-ad09-173a0a0000c2/img/5d7fb2fa5382c/original.JPG&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;" data-bg-key="11">
+    <div class="c-wrapper c-wrapper--sm">
+      <div class="c-inner c-inner--lg c-inner--vertical">
+        <div class="p-premium-form">
+          <div class="p-premium-form__inner c-inner c-inner--lg c-inner--vertical">
+            <div class="c-heading c-heading--block-main u-align-center u-mbmd pera1-removable">
+              <h2 data-structure="e-heading" class="pera1-editable"><strong>お申し込みフォーム</strong></h2>
+            </div>
+            <div class="u-mbsm pera1-removable c-inner">
+              <div data-structure="e-text" class="pera1-editable">体験会や見学会も随時行っております。お気軽にお問い合わせください。</div>
+            </div>
+            <div class="c-form m_form">
+              <div class="only-edit"><i class="fa fa-info-circle"></i>フォームから送信された内容はマイページの「フォーム」ボタンから確認できます。</div>
+              <form class="pera1-form" id="customform" method="post" action="/posts/complete"><div class="form-group"><label class="col-sm-4 control-label hp">Message</label><div class="col-sm-8 form_inputs hp"><input type="text" class="form-control form_input" name="message"></div></div>
+                <div class="pera1-editable" data-pera1-type="custom_form"><div class="form">
+        <div class="form-group" data-elem-name="formInputCustomText">
+            <label class="col-sm-3 control-label customFormGroup_ttl_required">お名前</label>
+            <div class="col-sm-8 form_inputs">
+                <input class="form-control form_input" type="text" placeholder="お名前をお書きください" name="userData[お名前]" required="">
+            </div>
+        </div>
+    
+        <div class="form-group" data-elem-name="formInputCustomText">
+            <label class="col-sm-3 control-label customFormGroup_ttl_required">お電話番号</label>
+            <div class="col-sm-8 form_inputs">
+                <input class="form-control form_input" type="text" placeholder="電話番号をお書きください" name="userData[お電話番号]" required="">
+            </div>
+        </div>
+    
+        <div class="form-group" data-elem-name="formInputCustomText">
+            <label class="col-sm-3 control-label customFormGroup_ttl_required">メールアドレス</label>
+            <div class="col-sm-8 form_inputs">
+                <input class="form-control form_input" type="email" placeholder="メールアドレスをお書きください" name="userData[メールアドレス]" required="" data-input-category-name="mail_address"><div style="padding-top: 5px;"><input type="checkbox" name="is_mail_magazine_send" value="true" checked>  送信したメールアドレスでお知らせ配信に登録する</div><input type="hidden" value="メールアドレス" name="system[mail_address]">
+            </div>
+            <input type="hidden" value="メールアドレス" name="system[replyToKey]">
+        </div>
+    
+        <div class="form-group" data-elem-name="formInputCustomText">
+            <label class="col-sm-3 control-label customFormGroup_ttl_required">内容</label>
+            <div class="col-sm-8">
+                <select class="form-control form_inputs" name="userData[内容]" required="">
+                    
+                        <option class="form_input" value="教室への入会について">教室への入会について</option>
+                    
+                        <option class="form_input" value="体験会・見学会のご相談">体験会・見学会のご相談</option>
+                    
+                        <option class="form_input" value="内容についての質問">内容についての質問</option>
+                    
+                        <option class="form_input" value="取材・インタビューのご相談">取材・インタビューのご相談</option>
+                    
+                        <option class="form_input" value="出張教室についてのご相談">出張教室についてのご相談</option>
+                    
+                </select>
+            </div>
+        </div>
+    
+        <div class="form-group" data-elem-name="formInputCustomText">
+            <label class="col-sm-3 control-label customFormGroup_ttl">お子様の年齢</label>
+            <div class="col-sm-8">
+                <select class="form-control form_inputs" name="userData[お子様の年齢]">
+                    
+                        <option class="form_input" value="小学3年生">小学3年生</option>
+                    
+                        <option class="form_input" value="小学4年生">小学4年生</option>
+                    
+                        <option class="form_input" value="小学5年生">小学5年生</option>
+                    
+                        <option class="form_input" value="小学6年生">小学6年生</option>
+                    
+                        <option class="form_input" value="中学1年生">中学1年生</option>
+                    
+                        <option class="form_input" value="中学2年生">中学2年生</option>
+                    
+                        <option class="form_input" value="中学3年生">中学3年生</option>
+                    
+                        <option class="form_input" value="小学1年生">小学1年生</option>
+                    
+                        <option class="form_input" value="小学2年生">小学2年生</option>
+                    
+                        <option class="form_input" value="未就学児">未就学児</option>
+                    
+                        <option class="form_input" value="高校生・大学生">高校生・大学生</option>
+                    
+                        <option class="form_input" value="大人">大人</option>
+                    
+                </select>
+            </div>
+        </div>
+    
+        <div class="form-group" data-elem-name="formInputCustomText">
+            <label class="col-sm-3 control-label customFormGroup_ttl_required">その他</label>
+            <div class="col-sm-8 form_inputs">
+                <textarea rows="4" cols="40" class="col-sm-8 form_input form-control" placeholder="内容をお書きください。体験参加の場合は希望日をお書きください。" name="userData[その他]" required=""></textarea>
+            </div>
+        </div>
+    </div></div>
+                <div class="u-align-center">
+                  <div class="form-group">
+                    <input class="form-control" id="formLandingPageId" type="hidden" value="505105" name="landing_page_id">
+                    <input id="formSubmit" type="submit" style="display:none">
+                    <div class="c-btn">
+                      <div class="btn-customform-submit pera1-editable" style="background-color: rgb(27, 204, 169);">送信</div>
+                    </div>
+                  </div>
+                </div>
+              <input type="hidden" name="token" value="cf6b6776c0ff850156a2f15c1df3d965199818426692948d2996f3d7e9f8d91b"><input type="hidden" name="_csrfToken" autocomplete="off" value="WDcMW+cg/7t5gq1grWqnrYDcDES85illvH/8C2vEK+V11wnCjjqoRE1OTtxK9FyGg7z6ZZ8gNXhOCXBk2bbpsn63/qiphcV5tOs0cIWCSlONSsRuCqIf1EPiOqG8Xpl3KXgv6y+Wbr/ii8kDrEQNQQ=="></form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><div class="pera1-section block" data-structure="b-ed-map" data-block-name="右地図+テキスト" id="section-19" data-optional-block-settings-key="14">
+  <div class="c-bg-img c-bg-img--cover pera1-bg-editable" style="background-image: url(//cdn.peraichi.com/template_root/v2/s3bucket/images/templates/ed/bg_ccc.png)" data-bg-key="12">
+    <div class="c-wrapper u-align-center">
+      <div class="c-inner c-inner--lg c-inner--vertical">
+        <div class="p-ed-heading-decoration c-heading u-mblg u-mbmd--sp font-round pera1-removable">
+          <h2 class="pera1-editable" data-structure="e-heading"><strong>アクセス</strong></h2>
+        </div>
+        <div class="grid-wrapper grid-wrapper--full">
+          <div class="row row-item-gutter--lg center-xs">
+            <div class="col-xs-12 col-sm-4 start-xs pera1-removable">
+              <div class="c-heading c-heading--sm u-mbsm font-round pera1-removable">
+                <div data-structure="e-text" class="pera1-editable"><strong>亀有校</strong></div>
+              </div>
+              <div class="u-mbsm pera1-removable">
+                <div data-structure="e-text" class="pera1-editable">東京都葛飾区亀有5-33-4 浅野ビル2F<br><br></div>
+              </div>
+              
+              
+            </div>
+            <div class="col-xs-12 col-sm-8 u-mbmd pera1-removable">
+              <div class="c-embedly-object c-embedly-object--responsive">
+                <div class="pera1-editable" data-pera1-type="embed_gmap"><iframe src="https://www.google.com/maps/embed/v1/place?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E8%91%9B%E9%A3%BE%E5%8C%BA%E4%BA%80%E6%9C%895-33-4+%E6%B5%85%E9%87%8E%E3%83%93%E3%83%AB2F&amp;language=ja&amp;zoom=16&amp;maptype=roadmap&amp;key=AIzaSyCucBnVrKinLowf5-ChLoxp-jjWZ82TuTU" frameborder="0" width="400" height="225"></iframe></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><div class="pera1-section block" data-structure="b-ed-btn--sm" data-block-name="ボタン(小)" id="section-12" data-optional-block-settings-key="15">
+          <div class="c-bg-img c-bg-img--cover pera1-bg-editable" data-bg-key="13">
+            <div class="c-wrapper u-align-center">
+              <div class="c-inner c-inner--lg c-inner--one-elem c-inner--vertical">
+                <div class="c-btn c-btn--round font-round"><a class="pera1-editable" href="https://coco-labo.net/" data-structure="e-btn" target="_self" style="background-color: rgb(40, 195, 212);">ココラボTOPへ戻る</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-ed-footer pera1-section block" data-structure="b-ed-footer" data-block-name="フッター" id="section-13" data-optional-block-settings-key="16">
+          <div class="c-bg-img c-bg-img--cover pera1-bg-editable" data-bg-key="14">
+            <div class="p-ed-footer-hr">
+              <hr>
+            </div>
+            <div class="c-inner c-inner--lg c-inner--vertical">
+              <div class="grid-wrapper font-round">
+                <div class="row">
+                  <div class="col-xs-8 col-sm-3 u-plsm--sp u-prsm--sp pera1-removable">
+                    <div class="p-ed-footer-logo c-img c-img--responsive u-mbmd"><img class="pera1-editable" src="//cdn.peraichi.com/userData/57d5e478-0d28-475b-ad09-173a0a0000c2/img/633f2baa63412/original.png" alt="" data-structure="e-img" style="">
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm u-plsm--sp u-prsm--sp">
+                    <div class="u-mbxs pera1-removable">
+                          <div data-structure="e-text" class="pera1-editable font-size-18px"><span data-custom-pc-fontsize="14px"><strong>ココラボキッズクリエイターアカデミー</strong></span></div>
+                    </div>
+                    <div class="u-mbxs pera1-removable">
+                          <div data-structure="e-text" class="pera1-editable font-size-16px">東京都葛飾区亀有5-33-4 浅野ビル2F<br><br></div>
+                    </div>
+                    <div class="u-mbmd pera1-removable">
+                          <div data-structure="e-text" class="pera1-editable"><div><strong>03-6820-2041&nbsp;robot@coco-labo.net</strong></div></div>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm p-ed-footer-sns u-plsm--sp u-prsm--sp">
+                    <ul class="p-ed-footer-sns__list u-align-right u-mbsm">
+                      
+                      
+                      <li class="pera1-removable" data-elem-name="ed-footer-sns-icon">
+                        <div class="c-img c-img--responsive"><a href="https://www.facebook.com/%E3%82%B3%E3%82%B3%E3%83%A9%E3%83%9C%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB-2546065125620189/" target="_blank"><img class="pera1-editable" src="//cdn.peraichi.com/template_root/v2/s3bucket/images/templates/ed/icon_fb.png" alt="" width="48" data-structure="e-img"></a>
+                        </div>
+                      </li><li class="pera1-removable" data-elem-name="ed-footer-sns-icon">
+                        <div class="c-img c-img--responsive"><a href="http://pcntokyo.com/" target="_blank"><img class="pera1-editable" src="//cdn.peraichi.com/userData/57d5e478-0d28-475b-ad09-173a0a0000c2/img/1473779237/original.jpg" alt="" width="48" data-structure="e-img"></a>
+                        </div>
+                      </li><li class="pera1-removable pera1-ghost pera1-add pera1-multiple" data-elem-name="ed-footer-sns-icon" style="opacity: 0; height: 50px;" data-nosnippet="">
+                <div class="c-img c-img--responsive"><img class="pera1-editable" src="//cdn.peraichi.com/template_root/v2/s3bucket/images/templates/ed/icon_fb.png" alt="" width="48" data-structure="e-img">
+                </div>
+              </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="s_footer-peraichi pera1-section block" data-structure="b-footer" data-block-name="フッター" id="section-14" data-optional-block-settings-key="17">
+          <div class="c-bg-img c-bg-img--cover pera1-bg-editable" data-bg-key="15">
+            <div class="c-wrapper c-wrapper">
+              <div class="p-footer__inner">
+                <div class="u-align-center">
+                      <div data-structure="e-text" class="pera1-editable"><div>(C)　Since2017 一般社団法人ココロエデュケーションラボ</div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="tmpl_nav" type="text/x-template">
+          <ul class="nav nav-pills nav-stacked">
+          <% _.each(sections, function(section) { %>
+          <li><a href="#<%= section.id %>"><%= section.name %></a></li>
+          <% }) %>
+          </ul>
+        </script>
+<script id="template_html" type="text/x-template"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KMZX95RJV4"></script>
+<script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag("js", new Date());
+                    gtag("config", "G-KMZX95RJV4", {
+                        "linker": {
+                            "domains": ["coco-labo.net", "pay.peraichi.com"],
+                            "decorate_forms": true
+                        }});
+</script><input type="hidden" value="https://captcha.peraichi.com/valid/" name="urlValidCaptcha"><script src="https://analytics.peraichi.com/scripts/beacon.min.js?tracking_codes=KROoOyFDpqCeDYR"></script></body></html>
