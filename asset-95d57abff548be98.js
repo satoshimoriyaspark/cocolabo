@@ -1,0 +1,11 @@
+window.Peraichi = window.Peraichi || {};
+window.Peraichi.PROTOCOL = "https:"
+window.Peraichi.HOST = "peraichi.com"
+window.Peraichi.PRIVATE_HOST = "peraichiapp.com"
+window.Peraichi.ROOT_URL = "https://peraichi.com"
+window.Peraichi.IS_DEVELOPMENT = Boolean()
+window.Peraichi.IS_PRODUCTION = Boolean(1)
+window.Peraichi.S3_BUCKET_PATH = "//s3-ap-northeast-1.amazonaws.com/s3.peraichi.com"
+window.Peraichi.PERAICHI_RESERVATION_BASE_URL = "https://reserve.peraichi.com"
+window.Peraichi.PERAICHI_MARKET_BASE_URL = "https://mkt.peraichi.com/"
+window.Peraichi.PERAICHI_AI_ASSISTANT_BASE_URL = "https://ai-assistant.lb.peraichi.com"

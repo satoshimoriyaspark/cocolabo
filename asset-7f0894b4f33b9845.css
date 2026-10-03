@@ -1,0 +1,1205 @@
+@charset "UTF-8";
+/*
+Theme Jp Name: ビタミン
+Theme En Name: vitamin
+Description: ビタミンのテーマCSSです
+Version: 2.0
+*/
+
+/* ------------------------------------------
+共通要素指定
+------------------------------------------ */
+body {
+    background-color: #fffff3;
+    --block-bg-color: #fffff3;
+    color: #2c2c2c;
+}
+
+/* 見出しをメインカラーにする */
+.c-heading h2 {
+    color: #6acd95;
+}
+
+/* ボタンデザイン */
+.c-btn a,
+.c-btn input,
+.c-btn .btn-customform-submit,
+.c-btn button {
+    color: #2c2c2c;
+    background-color: #ffda5f;
+    border-radius: 50px;
+    border: solid 2px #2c2b2c;
+}
+.c-btn--ghost a,
+.c-btn--ghost input,
+.c-btn--ghost .btn-customform-submit,
+.c-btn--ghost button {
+    background-color: transparent;
+}
+.c-btn a:hover,
+.c-btn input:hover,
+.c-btn .btn-customform-submit:hover,
+.c-btn button:hover {
+    box-shadow: none;
+    transform: scale(1, 1) translateY(2px);
+}
+
+/* 画像を角丸にして影をつける */
+.c-img--responsive img {
+    border-radius: 30px;
+    border: solid 10px #ffda5f;
+}
+.c-img.c-img--responsive div[data-image-clip-container] {
+    border-radius: 30px;
+    border: solid 10px #ffda5f;
+}
+.c-img--responsive {
+    padding: 10px;
+}
+
+/* ------------------------------------------
+ブロックで使用されているカラーをテーマのカラーに変更
+------------------------------------------ */
+/* 共通設定 */
+.c-btn--ghost a,
+.c-btn--ghost input,
+.c-btn--ghost .btn-customform-submit,
+.c-btn--ghost button {
+    color: #ffda5f;
+    border: 2px solid #ffda5f;
+}
+
+.c-border,
+.c-heading {
+    border-color: #6acd95;
+}
+
+.c-img-icon {
+    background-color: #6acd95;
+}
+
+.c-hr-solid,
+.c-hr-dashed,
+.c-hr-dotted,
+.c-hr-double {
+    border-color: #6acd95;
+}
+
+.c-bg-grad {
+    background-image: -webkit-linear-gradient(right, rgba(106, 205, 149, 0.9), rgba(166, 218, 188, 0.9));
+    background-image: linear-gradient(to left, rgba(106, 205, 149, 0.9), rgba(166, 218, 188, 0.9));
+}
+
+.c-symbol {
+    background-color: #6acd95;
+}
+
+.c-form .file-upload-btn {
+    border-color: #ffda5f;
+    color: #ffda5f;
+}
+
+/* ブロックごとの個別設定 */
+/* メイン */
+div[data-structure='b-main-set-3--center'] .p-main-set-3--center {
+    border: 10px solid #6acd95;
+}
+
+div[data-structure='b-main-set-3--center'] .p-main-set-3--center__subhead {
+    color: #fff;
+    background-color: #ffda5f;
+}
+
+div[data-structure='b-main-set-3--center'] .p-main-set-3--center__period {
+    border: 2px solid #6acd95;
+    color: #6acd95;
+}
+
+div[data-structure='b-main-set-3--center'] .p-main-set-3--center__main {
+    color: #6acd95;
+}
+
+div[data-structure='b-main-campaign'] .p-main-campaign__tag {
+    background: #ffda5f;
+}
+
+/* 見出し */
+div[data-structure='b-header-logo-img-2'] .p-header--theme-color,
+div[data-structure='b-heading-put-on-bdr'] .p-heading-put-on-bdr__inner:before,
+div[data-structure='b-heading-put-on-bdr'] .p-heading-put-on-bdr__inner:after,
+div[data-structure='b-heading-balloon--invert'] .p-heading-balloon--invert,
+div[data-structure='b-heading-arrow'] .p-heading-arrow--v2,
+div[data-structure='b-heading-arrow--has-subtext'] .p-heading-arrow--v2,
+div[data-structure='b-premium-heading-grad'] .p-premium-heading-grad__inner,
+div[data-structure='b-premium-heading-icon'] .p-heading-put-on-bdr__inner:before,
+div[data-structure='b-premium-heading-icon'] .p-heading-put-on-bdr__inner:after {
+    background-color: #6acd95;
+}
+
+div[data-structure='b-heading-arrow--has-subtext'] .p-heading-arrow--v2:before,
+div[data-structure='b-heading-balloon--invert'] .p-heading-balloon--invert:after,
+div[data-structure='b-heading-arrow'] .p-heading-arrow--v2:before {
+    border-top-color: #6acd95;
+}
+
+div[data-structure='b-heading-accent'] .p-heading-accent:before {
+    background: #6acd95;
+}
+
+div[data-structure='b-heading-accent'] .p-heading-accent:after {
+    background: #95e3b7;
+}
+
+div[data-structure='b-heading-double-bdr--updown'] .p-heading-double-bdr--updown:before {
+    border-top: 2px solid #6acd95;
+    border-bottom: 1px solid #6acd95;
+}
+
+div[data-structure='b-heading-double-bdr--updown'] .p-heading-double-bdr--updown:after {
+    border-top: 1px solid #6acd95;
+    border-bottom: 2px solid #6acd95;
+}
+
+div[data-structure='b-heading-origin-bdr--updown'] .c-hr-origin--2 {
+    background-image: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0A%3Csvg%20version%3D%221.1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%0A%09%20y%3D%220px%22%20viewBox%3D%22-277%20400.9%2040%2040%22%20style%3D%22enable-background%3Anew%20-277%20400.9%2040%2040%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Cstyle%20type%3D%22text/css%22%3E%0A%09.st0%7Bfill%3Argba(161, 191, 174, 0.99)%3B%7D%0A%3C/style%3E%0A%3Cg%3E%0A%09%3Cg%3E%0A%09%09%3Cpath%20class%3D%22st0%22%20d%3D%22M-265.9%2C417.5c-0.1-0.2-0.3-0.4-0.4-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.3-0.3-0.5-0.5-1%2C0%0A%09%09%09c-0.3%2C0.3-0.6%2C0.7-0.9%2C1c-0.3%2C0.3-0.7%2C0.6-1%2C0.9c-0.2%2C0.2-0.3%2C0.3-0.5%2C0.5c-0.4%2C0.3-0.7%2C0.8-1.1%2C1.1c-0.4%2C0.3-0.6%2C0.7-1%2C1%0A%09%09%09c-0.3%2C0.3-0.6%2C0.6-0.9%2C0.9c-0.4%2C0.4-0.8%2C0.8-1.4%2C1c-0.2%2C0.1-0.4%2C0.5-0.2%2C0.6c0.2%2C0.2%2C0.5%2C0.5%2C0.7%2C0.7c0.3%2C0.3%2C0.8%2C0.5%2C0.7%2C1.1%0A%09%09%09c0.5%2C0.1%2C0.5%2C0.1%2C0.7-0.3c0%2C0%2C0-0.1%2C0-0.1c0.7-0.7%2C1.3-1.4%2C2-2.2c0.2-0.3%2C0.5-0.5%2C0.7-0.7c0.3-0.3%2C0.7-0.6%2C1-0.9%0A%09%09%09c0.3-0.3%2C0.5-0.6%2C0.8-0.8c0.5-0.5%2C1-0.9%2C1.5-1.3c0.2-0.2%2C0.5-0.3%2C0.7-0.4c0.2-0.1%2C0.3-0.2%2C0.3-0.4%0A%09%09%09C-265.5%2C417.9-265.8%2C417.8-265.9%2C417.5z%22/%3E%0A%09%3C/g%3E%0A%09%3Cg%3E%0A%09%09%3Cpath%20class%3D%22st0%22%20d%3D%22M-252.8%2C417.5c-0.1-0.2-0.3-0.4-0.4-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.3-0.3-0.5-0.5-1%2C0%0A%09%09%09c-0.3%2C0.3-0.6%2C0.7-0.9%2C1c-0.3%2C0.3-0.7%2C0.6-1%2C0.9c-0.2%2C0.2-0.3%2C0.3-0.5%2C0.5c-0.4%2C0.3-0.7%2C0.8-1.1%2C1.1c-0.4%2C0.3-0.6%2C0.7-1%2C1%0A%09%09%09c-0.3%2C0.3-0.6%2C0.6-0.9%2C0.9c-0.4%2C0.4-0.8%2C0.8-1.4%2C1c-0.2%2C0.1-0.4%2C0.5-0.2%2C0.6c0.2%2C0.2%2C0.5%2C0.5%2C0.7%2C0.7c0.3%2C0.3%2C0.8%2C0.5%2C0.7%2C1.1%0A%09%09%09c0.5%2C0.1%2C0.5%2C0.1%2C0.7-0.3c0%2C0%2C0-0.1%2C0-0.1c0.7-0.7%2C1.3-1.4%2C2-2.2c0.2-0.3%2C0.5-0.5%2C0.7-0.7c0.3-0.3%2C0.7-0.6%2C1-0.9%0A%09%09%09c0.3-0.3%2C0.5-0.6%2C0.8-0.8c0.5-0.5%2C1-0.9%2C1.5-1.3c0.2-0.2%2C0.5-0.3%2C0.7-0.4c0.2-0.1%2C0.3-0.2%2C0.3-0.4%0A%09%09%09C-252.4%2C417.9-252.7%2C417.8-252.8%2C417.5z%22/%3E%0A%09%3C/g%3E%0A%09%3Cg%3E%0A%09%09%3Cpath%20class%3D%22st0%22%20d%3D%22M-239.8%2C417.5c-0.1-0.2-0.3-0.4-0.4-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.3-0.3-0.5-0.5-1%2C0%0A%09%09%09c-0.3%2C0.3-0.6%2C0.7-0.9%2C1c-0.3%2C0.3-0.7%2C0.6-1%2C0.9c-0.2%2C0.2-0.3%2C0.3-0.5%2C0.5c-0.4%2C0.3-0.7%2C0.8-1.1%2C1.1c-0.4%2C0.3-0.6%2C0.7-1%2C1%0A%09%09%09c-0.3%2C0.3-0.6%2C0.6-0.9%2C0.9c-0.4%2C0.4-0.8%2C0.8-1.4%2C1c-0.2%2C0.1-0.4%2C0.5-0.2%2C0.6c0.2%2C0.2%2C0.5%2C0.5%2C0.7%2C0.7c0.3%2C0.3%2C0.8%2C0.5%2C0.7%2C1.1%0A%09%09%09c0.5%2C0.1%2C0.5%2C0.1%2C0.7-0.3c0%2C0%2C0-0.1%2C0-0.1c0.7-0.7%2C1.3-1.4%2C2-2.2c0.2-0.3%2C0.5-0.5%2C0.7-0.7c0.3-0.3%2C0.7-0.6%2C1-0.9%0A%09%09%09c0.3-0.3%2C0.5-0.6%2C0.8-0.8c0.5-0.5%2C1-0.9%2C1.5-1.3c0.2-0.2%2C0.5-0.3%2C0.7-0.4c0.2-0.1%2C0.3-0.2%2C0.3-0.4%0A%09%09%09C-239.3%2C417.9-239.6%2C417.8-239.8%2C417.5z%22/%3E%0A%09%3C/g%3E%0A%3C/g%3E%0A%3C/svg%3E');
+}
+
+div[data-structure='b-heading-dogear'] .p-heading-dogear,
+div[data-structure='b-heading-balloon'] .p-heading-balloon {
+    background-color: #a6dabc;
+}
+
+div[data-structure='b-heading-dogear'] .p-heading-dogear:after {
+    border-color: #fbfbfc #fbfbfc #6acd95 #6acd95;
+}
+
+div[data-structure='b-heading-balloon--ghost'] .p-heading-balloon--ghost:before {
+    border-top: 15px solid #6acd95;
+}
+
+div[data-structure='b-heading-balloon'] .p-heading-balloon:after {
+    border-top: 15px solid #a6dabc;
+}
+
+div[data-structure='b-heading-ribbon'] .p-heading-ribbon {
+    background-image: -webkit-linear-gradient(
+            transparent 8%,
+            #bfd4c8 8%,
+            #bfd4c8 14%,
+            transparent 14%,
+            transparent 86%,
+            #bfd4c8 86%,
+            #bfd4c8 92%,
+            transparent 92%
+        ),
+        -webkit-linear-gradient(rgba(251, 251, 252, 0.75), rgba(251, 251, 252, 0)),
+        -webkit-linear-gradient(45deg, transparent 40%, #a6dabc 40%, #a6dabc 60%, transparent 60%),
+        -webkit-linear-gradient(white, white);
+    background-image: linear-gradient(
+            transparent 8%,
+            #bfd4c8 8%,
+            #bfd4c8 14%,
+            transparent 14%,
+            transparent 86%,
+            #bfd4c8 86%,
+            #bfd4c8 92%,
+            transparent 92%
+        ),
+        linear-gradient(rgba(251, 251, 252, 0.75), rgba(251, 251, 252, 0)),
+        linear-gradient(45deg, transparent 40%, #a6dabc 40%, #a6dabc 60%, transparent 60%),
+        linear-gradient(white, white);
+}
+
+div[data-structure='b-heading-ribbon'] .p-heading-ribbon:before {
+    border-top-color: #bdecd1;
+    border-right-color: #bdecd1;
+    border-bottom-color: #bdecd1;
+}
+
+div[data-structure='b-heading-ribbon'] .p-heading-ribbon__body:before,
+div[data-structure='b-heading-ribbon'] .p-heading-ribbon__body:after {
+    border-color: #95e3b7 transparent transparent transparent;
+}
+
+div[data-structure='b-heading-ribbon'] .p-heading-ribbon:after {
+    border-left-color: #bdecd1;
+    border-top-color: #bdecd1;
+    border-bottom-color: #bdecd1;
+}
+
+div[data-structure='b-heading-ribbon--flat'] .p-heading-ribbon--flat {
+    background: #6acd95;
+}
+
+div[data-structure='b-heading-ribbon--flat'] .p-heading-ribbon--flat:before {
+    border-top-color: #95e3b7;
+    border-right-color: #95e3b7;
+    border-bottom-color: #95e3b7;
+}
+
+div[data-structure='b-heading-ribbon--flat'] .p-heading-ribbon__body:before,
+div[data-structure='b-heading-ribbon--flat'] .p-heading-ribbon__body:after {
+    border-color: #46a26e transparent transparent transparent;
+}
+
+div[data-structure='b-heading-ribbon--flat'] .p-heading-ribbon--flat:after {
+    border-left-color: #95e3b7;
+    border-top-color: #95e3b7;
+    border-bottom-color: #95e3b7;
+}
+
+div[data-structure='b-premium-heading-grad'] .p-premium-heading-grad {
+    background-color: #6acd95;
+}
+
+div[data-structure='b-premium-heading-grad'] .p-premium-heading-grad:before,
+div[data-structure='b-premium-heading-grad'] .p-premium-heading-grad:after {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+div[data-structure='b-premium-heading-frame'] .p-premium-heading-frame {
+    background-color: #6acd95;
+    box-shadow: inset 0 0 0 5px #6acd95, inset 0 0 0 6px #fff;
+}
+div[data-structure='b-heading-arrow--bg'] .p-heading-arrow:not(.p-heading-arrow--v2):before,
+div[data-structure='b-heading-arrow--bg'] .p-heading-arrow:not(.p-heading-arrow--v2):after {
+    background-color: #fbfbfc;
+}
+
+div[data-structure='b-heading-background-text'] .p-heading-background-text__sub {
+    color: #bdecd1;
+}
+
+/* 文章+画像 */
+div[data-structure='b-article-has-number'] .p-article-has-number__ribbon,
+div[data-structure='b-article-has-number'] .p-article-has-number__circle {
+    background: #6acd95;
+}
+
+div[data-structure='b-article-has-tags'] .p-article-has-tags__tag,
+div[data-structure='b-article-point'] .p-article-point__header,
+div[data-structure='b-premium-cards-img-left'] .p-premium-cards-img-left__label,
+div[data-structure='b-premium-profile-set'] .p-premium-profile__heading,
+div[data-structure='b-premium-profile-set2'] .p-premium-profile__heading,
+div[data-structure='b-premium-interview'] .p-premium-interview__heading {
+    background-color: #6acd95;
+}
+
+div[data-structure='b-premium-profile-set'] .p-premium-profile__name {
+    border-bottom: 1px solid #6acd95;
+}
+
+div[data-structure='b-premium-profile-set'] .p-premium-profile__subHeading,
+div[data-structure='b-premium-profile-set2'] .p-premium-profile__subHeading {
+    color: #6acd95;
+}
+
+div[data-structure='b-premium-interview'] .p-premium-interview__bottom {
+    background-color: #dee8e2;
+}
+
+/* 文章+画像(複数) */
+div[data-structure='b-cards-voice-bordered'] .p-card-voice-bordered__img img,
+div[data-structure='b-cards-voice-bordered'] .p-card-voice-bordered__img .pera1-clip-image {
+    border: 3px solid #6acd95;
+}
+
+div[data-structure='b-cards-voice-bordered'] .p-card-voice-bordered {
+    border-top: 4px solid #6acd95;
+}
+
+div[data-structure='b-premium-steps'] .p-premium-steps__item-header {
+    background: #6acd95;
+}
+
+div[data-structure='b-premium-steps'] .p-premium-steps__item-num {
+    color: #6acd95;
+}
+
+div[data-structure='b-premium-steps'] .p-premium-steps__item-img {
+    box-shadow: #6acd95 0 0 0 3px;
+}
+
+div[data-structure='b-premium-steps'] .p-premium-steps__arrow:after {
+    border-left: 15px solid #6acd95;
+}
+@media only screen and (min-width: 1px) and (max-width: 480px) {
+    div[data-structure='b-premium-steps'] .p-premium-steps__arrow:after {
+        border-left: 10px solid transparent;
+        border-top: 15px solid #6acd95;
+    }
+}
+div[data-structure='b-cards-img-left--with-table-2col'] .p-cards-img-left--with-table-2col__table {
+    border: solid 1px #6acd95;
+}
+
+div[data-structure='b-cards-img-left--with-table-2col'] .p-cards-img-left--with-table-2col__table tr {
+    border-bottom: dashed 1px #6acd95;
+}
+
+div[data-structure='b-cards-img-left--with-table-2col'] .p-cards-img-left--with-table-2col__table tr th:before {
+    color: #6acd95;
+}
+
+div[data-structure='b-cards-img-left--with-table-2col'] .p-cards-img-left--with-table-2col__table tr:last-of-type {
+    border-bottom: none;
+}
+
+/* ボタン */
+div[data-structure='b-btn-set-3'] .u-color-theme-main {
+    color: #6acd95;
+}
+
+div[data-structure='b-premium-btn'] .p-premium-btn a,
+div[data-structure='b-premium-btn--type-2'] .p-premium-btn a,
+div[data-structure='b-premium-btn--type-3'] .p-premium-btn a,
+div[data-structure='b-premium-contact-set'] .p-premium-contact-set__btn a {
+    background-color: #ffda5f;
+}
+
+div[data-structure='b-premium-btn-set-3'] .p-premium-btn-set-3__wrapper {
+    background-color: #6acd95;
+}
+
+div[data-structure='b-premium-contact-set'] .p-premium-contact-set {
+    border: 1px solid #6acd95;
+    background-color: #6acd95;
+}
+div[data-structure='b-btn-contact'] .p-btn-contact.c-bg-img {
+    background-color: #6acd95;
+}
+
+div[data-structure='b-btn-contact'] .p-btn-contact__contact-area-inner h2 {
+    color: #6acd95;
+}
+
+div[data-structure='b-btn-contact'] .p-btn-contact__tel-wrapper {
+    background-color: #a6dabc;
+}
+
+/* 決済 */
+div[data-structure='b-order-ticket-2'] .u-color-theme-main,
+div[data-structure='b-order-ticket-2'] .p-order-ticket-2__price,
+div[data-structure='b-order-ticket'] .u-color-theme-main {
+    color: #6acd95;
+}
+
+div[data-structure='b-order-cards-bordered--3col'] .p-order-card-bordered {
+    border-top: 4px solid #6acd95;
+}
+
+div[data-structure='b-order-countdown'] .p-order-countdown.c-bg-img,
+div[data-structure='b-order-countdown-button'] .p-order-countdown-button.c-bg-img {
+    background-color: #6acd95;
+}
+div[data-structure='b-order-countdown'] .p-order-countdown__countdown-area-inner h2,
+div[data-structure='b-order-countdown-button'] .p-order-countdown-button__countdown-area-inner h2 {
+    color: #6acd95;
+}
+
+/* 区切り線 */
+div[data-structure='b-hr-origin'] .c-hr-origin {
+    background-image: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0A%3Csvg%20version%3D%221.1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%0A%09%20y%3D%220px%22%20viewBox%3D%220%200%2040%2040%22%20style%3D%22enable-background%3Anew%200%200%2040%2040%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Cstyle%20type%3D%22text/css%22%3E%0A%09.st0%7Bfill%3Argba(161, 191, 174, 0.99)%3B%7D%0A%3C/style%3E%0A%3Cpath%20class%3D%22st0%22%20d%3D%22M37.4%2C18.4c-0.8%2C0.4-1.5%2C0.9-2.3%2C1.4c-0.5%2C0.3-1.1%2C0.8-1.6%2C0.8c-0.8%2C0.1-1.6%2C0.8-2.4%2C0.3%0A%09c-0.6-0.3-1.2-0.2-1.7-0.2c-0.9%2C0-1.8-0.2-2.7-0.2c-0.8%2C0-1.6%2C0.2-2.4%2C0.2c-0.7%2C0-1.3%2C0-2-0.1c-0.6%2C0-1.3%2C0-1.9-0.2%0A%09c-1-0.4-1.9-1.3-2.9-2c-0.3-0.3-0.7-0.6-1.1-0.5c-0.6%2C0.1-1.1-0.3-1.7%2C0c-0.6%2C0.3-1.2%2C0.3-1.9%2C0.5c-0.6%2C0.2-1.2%2C0.7-1.8%2C0.9%0A%09c-0.7%2C0.2-1.3%2C0.4-1.9%2C0.9c-0.1%2C0.1-0.3%2C0.3-0.4%2C0.3c-0.4%2C0-0.7-0.2-1.1%2C0c-0.9%2C0.5-1.8%2C0.2-2.6%2C0.3c-0.3%2C0-0.6-0.3-1-0.5%0A%09c-1-0.6-2-1.2-3-1.8c-0.4-0.2-0.7-0.4-1.1-0.4v1.4c0.7%2C0.1%2C1.5%2C0.5%2C2.1%2C1.2c0.2%2C0.2%2C0.4%2C0.2%2C0.6%2C0.3c0.6%2C0.3%2C1.2%2C0.5%2C1.7%2C0.8%0A%09C4.7%2C22%2C4.8%2C22.1%2C5%2C22.1c0.6%2C0%2C1.1-0.1%2C1.7-0.1c0.6%2C0.1%2C1.2-0.1%2C1.8-0.5c0.1%2C0%2C0.1%2C0%2C0.2-0.1c0.6-0.2%2C1.2-0.4%2C1.8-0.6%0A%09c0.4-0.1%2C0.8-0.3%2C1.2-0.4c0.2-0.1%2C0.5-0.2%2C0.7-0.3c0%2C0%2C0.1-0.1%2C0.1-0.2c0.1-0.1%2C0.2-0.4%2C0.3-0.4c0.8-0.2%2C1.7-0.3%2C2.5-0.4%0A%09c0.3%2C0%2C0.5%2C0%2C0.8%2C0c0.5%2C0.2%2C1.1%2C0.3%2C1.6%2C0.7c0.8%2C0.6%2C1.6%2C1.3%2C2.5%2C1.5c0.7%2C0.2%2C1.5%2C0.4%2C2.2%2C0.4c0.7%2C0%2C1.4%2C0%2C2%2C0c0.5%2C0%2C1.1-0.2%2C1.6%2C0%0A%09c0.5%2C0.2%2C1-0.3%2C1.6-0.1c0.6%2C0.3%2C1.2%2C0%2C1.8%2C0c0.6%2C0%2C1.3%2C0.1%2C1.9%2C0.2c0.5%2C0%2C1%2C0.1%2C1.5%2C0c0.7-0.2%2C1.4-0.5%2C2.2-0.9%0A%09c0.8-0.4%2C1.6-1%2C2.4-1.4c0.8-0.4%2C2.6%2C0%2C2.6%2C0v-1.4c-0.5%2C0-0.8-0.2-1.3-0.1C38.3%2C18.2%2C37.8%2C18.2%2C37.4%2C18.4z%22/%3E%0A%3C/svg%3E');
+}
+
+div[data-structure='b-hr-svg--2'] .c-hr-origin--2 {
+    background-image: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0A%3Csvg%20version%3D%221.1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%0A%09%20y%3D%220px%22%20viewBox%3D%22-277%20400.9%2040%2040%22%20style%3D%22enable-background%3Anew%20-277%20400.9%2040%2040%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Cstyle%20type%3D%22text/css%22%3E%0A%09.st0%7Bfill%3Argba(161, 191, 174, 0.99)%3B%7D%0A%3C/style%3E%0A%3Cg%3E%0A%09%3Cg%3E%0A%09%09%3Cpath%20class%3D%22st0%22%20d%3D%22M-265.9%2C417.5c-0.1-0.2-0.3-0.4-0.4-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.3-0.3-0.5-0.5-1%2C0%0A%09%09%09c-0.3%2C0.3-0.6%2C0.7-0.9%2C1c-0.3%2C0.3-0.7%2C0.6-1%2C0.9c-0.2%2C0.2-0.3%2C0.3-0.5%2C0.5c-0.4%2C0.3-0.7%2C0.8-1.1%2C1.1c-0.4%2C0.3-0.6%2C0.7-1%2C1%0A%09%09%09c-0.3%2C0.3-0.6%2C0.6-0.9%2C0.9c-0.4%2C0.4-0.8%2C0.8-1.4%2C1c-0.2%2C0.1-0.4%2C0.5-0.2%2C0.6c0.2%2C0.2%2C0.5%2C0.5%2C0.7%2C0.7c0.3%2C0.3%2C0.8%2C0.5%2C0.7%2C1.1%0A%09%09%09c0.5%2C0.1%2C0.5%2C0.1%2C0.7-0.3c0%2C0%2C0-0.1%2C0-0.1c0.7-0.7%2C1.3-1.4%2C2-2.2c0.2-0.3%2C0.5-0.5%2C0.7-0.7c0.3-0.3%2C0.7-0.6%2C1-0.9%0A%09%09%09c0.3-0.3%2C0.5-0.6%2C0.8-0.8c0.5-0.5%2C1-0.9%2C1.5-1.3c0.2-0.2%2C0.5-0.3%2C0.7-0.4c0.2-0.1%2C0.3-0.2%2C0.3-0.4%0A%09%09%09C-265.5%2C417.9-265.8%2C417.8-265.9%2C417.5z%22/%3E%0A%09%3C/g%3E%0A%09%3Cg%3E%0A%09%09%3Cpath%20class%3D%22st0%22%20d%3D%22M-252.8%2C417.5c-0.1-0.2-0.3-0.4-0.4-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.3-0.3-0.5-0.5-1%2C0%0A%09%09%09c-0.3%2C0.3-0.6%2C0.7-0.9%2C1c-0.3%2C0.3-0.7%2C0.6-1%2C0.9c-0.2%2C0.2-0.3%2C0.3-0.5%2C0.5c-0.4%2C0.3-0.7%2C0.8-1.1%2C1.1c-0.4%2C0.3-0.6%2C0.7-1%2C1%0A%09%09%09c-0.3%2C0.3-0.6%2C0.6-0.9%2C0.9c-0.4%2C0.4-0.8%2C0.8-1.4%2C1c-0.2%2C0.1-0.4%2C0.5-0.2%2C0.6c0.2%2C0.2%2C0.5%2C0.5%2C0.7%2C0.7c0.3%2C0.3%2C0.8%2C0.5%2C0.7%2C1.1%0A%09%09%09c0.5%2C0.1%2C0.5%2C0.1%2C0.7-0.3c0%2C0%2C0-0.1%2C0-0.1c0.7-0.7%2C1.3-1.4%2C2-2.2c0.2-0.3%2C0.5-0.5%2C0.7-0.7c0.3-0.3%2C0.7-0.6%2C1-0.9%0A%09%09%09c0.3-0.3%2C0.5-0.6%2C0.8-0.8c0.5-0.5%2C1-0.9%2C1.5-1.3c0.2-0.2%2C0.5-0.3%2C0.7-0.4c0.2-0.1%2C0.3-0.2%2C0.3-0.4%0A%09%09%09C-252.4%2C417.9-252.7%2C417.8-252.8%2C417.5z%22/%3E%0A%09%3C/g%3E%0A%09%3Cg%3E%0A%09%09%3Cpath%20class%3D%22st0%22%20d%3D%22M-239.8%2C417.5c-0.1-0.2-0.3-0.4-0.4-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.3-0.3-0.5-0.5-1%2C0%0A%09%09%09c-0.3%2C0.3-0.6%2C0.7-0.9%2C1c-0.3%2C0.3-0.7%2C0.6-1%2C0.9c-0.2%2C0.2-0.3%2C0.3-0.5%2C0.5c-0.4%2C0.3-0.7%2C0.8-1.1%2C1.1c-0.4%2C0.3-0.6%2C0.7-1%2C1%0A%09%09%09c-0.3%2C0.3-0.6%2C0.6-0.9%2C0.9c-0.4%2C0.4-0.8%2C0.8-1.4%2C1c-0.2%2C0.1-0.4%2C0.5-0.2%2C0.6c0.2%2C0.2%2C0.5%2C0.5%2C0.7%2C0.7c0.3%2C0.3%2C0.8%2C0.5%2C0.7%2C1.1%0A%09%09%09c0.5%2C0.1%2C0.5%2C0.1%2C0.7-0.3c0%2C0%2C0-0.1%2C0-0.1c0.7-0.7%2C1.3-1.4%2C2-2.2c0.2-0.3%2C0.5-0.5%2C0.7-0.7c0.3-0.3%2C0.7-0.6%2C1-0.9%0A%09%09%09c0.3-0.3%2C0.5-0.6%2C0.8-0.8c0.5-0.5%2C1-0.9%2C1.5-1.3c0.2-0.2%2C0.5-0.3%2C0.7-0.4c0.2-0.1%2C0.3-0.2%2C0.3-0.4%0A%09%09%09C-239.3%2C417.9-239.6%2C417.8-239.8%2C417.5z%22/%3E%0A%09%3C/g%3E%0A%3C/g%3E%0A%3C/svg%3E');
+}
+
+div[data-structure='b-hr-origin--3'] .c-hr-origin--3 {
+    background-image: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0A%3Csvg%20version%3D%221.1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%0A%09%20y%3D%220px%22%20viewBox%3D%220%200%2040%2040%22%20style%3D%22enable-background%3Anew%200%200%2040%2040%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Cstyle%20type%3D%22text/css%22%3E%0A%09.st0%7Bfill%3Argba(161, 191, 174, 0.99)%3B%7D%0A%3C/style%3E%0A%3Cg%3E%0A%09%3Cpath%20class%3D%22st0%22%20d%3D%22M33.6%2C22c-0.3%2C0.1-1.3-0.1-1.5-0.3c-0.5-0.5-1.1-0.9-1.5-1.5c-0.6-0.8-0.3-1.5%2C0-2c0.4-0.8%2C1.1-1.4%2C1.7-2%0A%09%09c0.7-0.6%2C1.6-0.4%2C2.4-0.4c0.7%2C0.1%2C1%2C0.8%2C1.1%2C1.3c0.2%2C0.6%2C0.3%2C1.5%2C0.2%2C2.1c-0.2%2C0.9-0.3%2C1.9-1.5%2C2.3C34.5%2C21.2%2C33.8%2C21.5%2C33.6%2C22z%22%0A%09%09/%3E%0A%09%3Cpath%20class%3D%22st0%22%20d%3D%22M19.6%2C21.4c-1.2-0.4-1.2-1.5-1.3-2.4c0-0.5%2C0.2-0.9%2C0.9-1.1c0.5-0.2%2C1-0.5%2C1.4-0.9c0.6-0.5%2C0.9-0.5%2C1.7-0.1%0A%09%09c0.1%2C0.1%2C0.3%2C0.1%2C0.4%2C0.1c0.7%2C0%2C1.1%2C0.5%2C1.2%2C1.1c0.2%2C1.1%2C0.1%2C2.1-0.8%2C3C22.8%2C21.3%2C20.5%2C21.7%2C19.6%2C21.4z%22/%3E%0A%09%3Cpath%20class%3D%22st0%22%20d%3D%22M8.3%2C21.9c-0.8%2C0.4-1.9%2C0-2.5-0.7c-0.4-0.5-1-1.2-0.6-2.1c0.3-0.7%2C0.2-1.6%2C1.1-1.9c0.4-0.2%2C0.7-0.5%2C1.2-0.1%0A%09%09c0.1%2C0.1%2C0.4%2C0.1%2C0.6-0.1c0.5-0.5%2C0.9-0.2%2C1.3%2C0.1c1.1%2C0.9%2C1.7%2C2%2C0.9%2C3.5C10%2C21.2%2C8.9%2C21.7%2C8.3%2C21.9z%22/%3E%0A%3C/g%3E%0A%3C/svg%3E');
+}
+
+div[data-structure='b-hr-origin--4'] .c-hr-origin--4 {
+    background-image: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0A%3Csvg%20version%3D%221.1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%0A%09%20y%3D%220px%22%20viewBox%3D%22-277%20400.9%2040%2040%22%20style%3D%22enable-background%3Anew%20-277%20400.9%2040%2040%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Cstyle%20type%3D%22text/css%22%3E%0A%09.st0%7Bfill%3Argba(161, 191, 174, 0.99)%3B%7D%0A%3C/style%3E%0A%3Cg%3E%0A%09%3Cg%3E%0A%09%09%3Cpath%20class%3D%22st0%22%20d%3D%22M-271.5%2C417.7c0%2C1.2%2C0.1%2C2.3%2C0.1%2C3.5c0%2C0.5-0.1%2C1-0.1%2C1.6c0%2C0.5%2C0%2C1.1%2C0.1%2C1.6c0.1%2C0.4-0.2%2C0.4-0.4%2C0.4%0A%09%09%09c-0.1%2C0-0.3-0.2-0.3-0.4c0-0.3%2C0-0.7%2C0-1c0-1.2%2C0-2.4%2C0-3.6c0-0.6-0.1-1.3-0.2-1.9c0-0.1%2C0-0.2%2C0-0.2c0-0.6%2C0.2-0.8%2C0.7-0.4%0A%09%09%09C-271.5%2C417.3-271.5%2C417.5-271.5%2C417.7C-271.5%2C417.6-271.5%2C417.6-271.5%2C417.7z%22/%3E%0A%09%3C/g%3E%0A%09%3Cg%3E%0A%09%09%3Cpath%20class%3D%22st0%22%20d%3D%22M-261.6%2C417.7c0%2C1.2%2C0.1%2C2.3%2C0.1%2C3.5c0%2C0.5-0.1%2C1-0.1%2C1.6c0%2C0.5%2C0%2C1.1%2C0.1%2C1.6c0.1%2C0.4-0.2%2C0.4-0.4%2C0.4%0A%09%09%09c-0.1%2C0-0.3-0.2-0.3-0.4c0-0.3%2C0-0.7%2C0-1c0-1.2%2C0-2.4%2C0-3.6c0-0.6-0.1-1.3-0.2-1.9c0-0.1%2C0-0.2%2C0-0.2c0-0.6%2C0.2-0.8%2C0.7-0.4%0A%09%09%09C-261.6%2C417.3-261.6%2C417.5-261.6%2C417.7C-261.6%2C417.6-261.6%2C417.6-261.6%2C417.7z%22/%3E%0A%09%3C/g%3E%0A%09%3Cg%3E%0A%09%09%3Cpath%20class%3D%22st0%22%20d%3D%22M-251.7%2C417.7c0%2C1.2%2C0.1%2C2.3%2C0.1%2C3.5c0%2C0.5-0.1%2C1-0.1%2C1.6c0%2C0.5%2C0%2C1.1%2C0.1%2C1.6c0.1%2C0.4-0.2%2C0.4-0.4%2C0.4%0A%09%09%09c-0.1%2C0-0.3-0.2-0.3-0.4c0-0.3%2C0-0.7%2C0-1c0-1.2%2C0-2.4%2C0-3.6c0-0.6-0.1-1.3-0.2-1.9c0-0.1%2C0-0.2%2C0-0.2c0-0.6%2C0.2-0.8%2C0.7-0.4%0A%09%09%09C-251.7%2C417.3-251.7%2C417.5-251.7%2C417.7C-251.7%2C417.6-251.7%2C417.6-251.7%2C417.7z%22/%3E%0A%09%3C/g%3E%0A%09%3Cg%3E%0A%09%09%3Cpath%20class%3D%22st0%22%20d%3D%22M-241.8%2C417.7c0%2C1.2%2C0.1%2C2.3%2C0.1%2C3.5c0%2C0.5-0.1%2C1-0.1%2C1.6c0%2C0.5%2C0%2C1.1%2C0.1%2C1.6c0.1%2C0.4-0.2%2C0.4-0.4%2C0.4%0A%09%09%09c-0.1%2C0-0.3-0.2-0.3-0.4c0-0.3%2C0-0.7%2C0-1c0-1.2%2C0-2.4%2C0-3.6c0-0.6-0.1-1.3-0.2-1.9c0-0.1%2C0-0.2%2C0-0.2c0-0.6%2C0.2-0.8%2C0.7-0.4%0A%09%09%09C-241.9%2C417.3-241.8%2C417.5-241.8%2C417.7C-241.8%2C417.6-241.8%2C417.6-241.8%2C417.7z%22/%3E%0A%09%3C/g%3E%0A%3C/g%3E%0A%3C/svg%3E%0A');
+}
+
+div[data-structure='b-hr-origin--5'] .c-hr-origin--5 {
+    background-image: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0A%3Csvg%20version%3D%221.1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%0A%09%20y%3D%220px%22%20viewBox%3D%22-277%20400.9%2040%2040%22%20style%3D%22enable-background%3Anew%20-277%20400.9%2040%2040%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Cstyle%20type%3D%22text/css%22%3E%0A%09.st0%7Bfill%3Argba(161, 191, 174, 0.99)%3B%7D%0A%3C/style%3E%0A%3Cpath%20class%3D%22st0%22%20d%3D%22M-241.7%2C420.3c-2%2C0.2-4%2C0.7-4.8%2C2.5c-0.4-0.5-0.9-1-1.3-1.5c-0.3-0.4-0.6-0.7-1-1.1c-0.7-0.7-1.3-1.4-2-2.1%0A%09c-0.8-0.8-2-1-3-1.5c-1.4-0.7-2.9-0.9-4.5-0.9c-1.1%2C0-2.2%2C0.2-3.2%2C0.3c-3.2%2C0.1-6.3%2C0.7-9.3%2C1.7c-1.3%2C0.4-2.6%2C0.9-3.6%2C1.9%0A%09c-0.6%2C0.6-1.4%2C1.5-2%2C2c-0.3%2C0.3-0.5%2C0.5-0.7%2C0.5l0%2C2c0.3%2C0%2C0.4-0.2%2C0.6-0.3c0.2-0.1%2C0.3-0.3%2C0.5-0.5c1.3-1.6%2C2.7-3.6%2C4.9-4.4%0A%09c1.4-0.5%2C2.8-1%2C4.3-1.3c1.5-0.3%2C3-0.5%2C4.6-0.7c1.3-0.1%2C2.6-0.2%2C4-0.2c1.7-0.1%2C3.2%2C0.6%2C4.8%2C1c0.7%2C0.1%2C1.4%2C0.8%2C1.9%2C1.3%0A%09c0.7%2C0.6%2C1.1%2C1.4%2C1.8%2C2c1.3%2C1.1%2C1.9%2C2.4%2C2.4%2C3.8c0.2%2C0.6%2C0.5%2C0.5%2C1%2C0.5c0.6-0.1%2C0.8-0.5%2C0.9-1c0.2-0.8%2C0.5-1.6%2C1.4-2.1%0A%09c0.2-0.1%2C0.4-0.3%2C0.7-0.4c0.7-0.2%2C1.5-0.6%2C2.3-0.6c1.8%2C0.2%2C3%2C1.1%2C3.3%2C2.7c0%2C0.1%2C0.1%2C0.2%2C0.3%2C0.3c0.2%2C0.1%2C0.3%2C0.1%2C0.5%2C0v-2.1%0A%09C-237.7%2C421-239.9%2C420.1-241.7%2C420.3z%22/%3E%0A%3C/svg%3E%0A');
+}
+
+div[data-structure='b-hr-origin--6'] .c-hr-origin--6 {
+    background-image: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0A%3Csvg%20version%3D%221.1%22%20id%3D%22%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%0A%09%20y%3D%220px%22%20viewBox%3D%220%200%2040%2040%22%20style%3D%22enable-background%3Anew%200%200%2040%2040%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Cstyle%20type%3D%22text/css%22%3E%0Apath%7Bfill%3Argba(161, 191, 174, 0.99)%3B%7D%0A%3C/style%3E%0A%3Cpath%20d%3D%22M3.2%2C23.2L3.2%2C23.2c0.9-0.9%2C1.7-1.7%2C2.6-2.5c0.2-0.2%2C0.6-0.6%2C0.9-0.9c0.4-0.4%2C0.9-0.7%2C1.2-1c0.4-0.2%2C0.6-0.6%2C1-1%0A%09c0.6-0.5%2C1.2-1%2C2-1.5c0.2-0.2%2C0.6-0.4%2C0.9-0.5c0.2-0.1%2C0.4-0.2%2C0.4-0.4c0-0.4-0.4-0.6-0.5-0.9c-0.2-0.1-0.4-0.4-0.6-0.5%0A%09c-0.1-0.1-0.2-0.2-0.4-0.4c-0.4-0.4-0.6-0.6-1.2%2C0c-0.4%2C0.4-0.7%2C0.7-1.2%2C1.1c-0.4%2C0.4-0.9%2C0.7-1.4%2C1c-0.2%2C0.1-0.4%2C0.4-0.6%2C0.5%0A%09c-0.5%2C0.4-0.9%2C0.9-1.4%2C1.2C4.3%2C18%2C4%2C18.4%2C3.6%2C18.8c-0.4%2C0.4-0.7%2C0.7-1.2%2C1c-0.5%2C0.4-1%2C1-1.7%2C1.1c-0.2%2C0.1-0.5%2C0.5-0.2%2C0.7%0A%09s0.6%2C0.5%2C0.9%2C0.7c0.4%2C0.4%2C1%2C0.6%2C1%2C1.2C2.9%2C23.7%2C3%2C23.7%2C3.2%2C23.2z%20M1.6%2C21.7c-0.2-0.2-0.2-0.5%2C0-0.6c0.4-0.2%2C0.7-0.5%2C1-0.7%0A%09c0.4-0.2%2C0.7-0.6%2C1.1-1c0.9-0.7%2C1.7-1.6%2C2.6-2.3s1.7-1.4%2C2.6-2c0.4-0.2%2C0.6-0.6%2C1-0.9c0.1%2C0%2C0.2%2C0%2C0.4%2C0c0.4%2C0.2%2C0.6%2C0.6%2C0.9%2C1%0A%09c0.2%2C0.2%2C0.2%2C0.4-0.1%2C0.5c-0.9%2C0.6-1.9%2C1.2-2.6%2C2c-1%2C0.9-1.9%2C1.7-2.8%2C2.6C4.7%2C21%2C4%2C21.7%2C3.1%2C22.5c-0.1%2C0.1-0.2%2C0.1-0.5%2C0.4%0A%09C2.4%2C22.5%2C2%2C22.1%2C1.6%2C21.7z%22/%3E%0A%3Cpath%20d%3D%22M17%2C23.2L17%2C23.2c0.9-0.9%2C1.7-1.7%2C2.6-2.5c0.2-0.2%2C0.6-0.6%2C0.9-0.9c0.4-0.4%2C0.9-0.7%2C1.2-1c0.4-0.2%2C0.6-0.6%2C1-1%0A%09c0.6-0.5%2C1.2-1%2C2-1.5c0.2-0.2%2C0.6-0.4%2C0.9-0.5c0.2-0.1%2C0.4-0.2%2C0.4-0.4c0-0.4-0.4-0.6-0.5-0.9c-0.1-0.2-0.4-0.4-0.5-0.6%0A%09c-0.1-0.1-0.2-0.2-0.4-0.4c-0.4-0.4-0.6-0.6-1.2%2C0c-0.4%2C0.4-0.7%2C0.7-1.2%2C1.1c-0.4%2C0.4-0.9%2C0.7-1.4%2C1c-0.2%2C0.1-0.4%2C0.4-0.6%2C0.5%0A%09c-0.5%2C0.4-0.9%2C0.9-1.4%2C1.2c-0.5%2C0.4-0.9%2C0.7-1.2%2C1.1c-0.4%2C0.4-0.7%2C0.7-1.2%2C1c-0.5%2C0.4-1%2C1-1.7%2C1.1c-0.2%2C0.1-0.5%2C0.5-0.2%2C0.7%0A%09c0.2%2C0.2%2C0.6%2C0.5%2C0.9%2C0.7c0.4%2C0.4%2C1%2C0.6%2C1%2C1.2C16.6%2C23.7%2C16.7%2C23.7%2C17%2C23.2z%20M15.4%2C21.7c-0.2-0.2-0.2-0.5%2C0-0.6%0A%09c0.4-0.2%2C0.7-0.5%2C1-0.7c0.4-0.2%2C0.7-0.6%2C1.1-1c0.9-0.7%2C1.7-1.6%2C2.6-2.3c0.9-0.7%2C1.7-1.4%2C2.6-2c0.4-0.2%2C0.6-0.6%2C1-0.9%0A%09c0.1%2C0%2C0.2%2C0%2C0.4%2C0c0.4%2C0.2%2C0.6%2C0.6%2C0.9%2C1c0.2%2C0.2%2C0.2%2C0.4-0.1%2C0.5c-0.9%2C0.6-1.9%2C1.2-2.6%2C2c-1%2C0.9-1.9%2C1.7-2.8%2C2.6%0A%09c-0.9%2C0.7-1.6%2C1.5-2.5%2C2.2c-0.1%2C0.1-0.2%2C0.1-0.5%2C0.4C16.1%2C22.5%2C15.8%2C22.1%2C15.4%2C21.7z%22/%3E%0A%3Cpath%20d%3D%22M30.8%2C23.2L30.8%2C23.2c0.9-0.9%2C1.7-1.7%2C2.6-2.5c0.2-0.2%2C0.6-0.6%2C0.9-0.9c0.4-0.4%2C0.9-0.7%2C1.2-1c0.4-0.2%2C0.6-0.6%2C1-1%0A%09c0.6-0.5%2C1.2-1%2C2-1.5c0.2-0.2%2C0.6-0.4%2C0.9-0.5c0.2-0.1%2C0.4-0.2%2C0.4-0.4c0-0.4-0.4-0.6-0.5-0.9c-0.1-0.2-0.4-0.4-0.5-0.6%0A%09c-0.1-0.1-0.2-0.2-0.4-0.4c-0.4-0.4-0.6-0.6-1.2%2C0c-0.4%2C0.4-0.7%2C0.7-1.2%2C1.1c-0.4%2C0.4-0.9%2C0.7-1.4%2C1c-0.2%2C0.1-0.4%2C0.4-0.6%2C0.5%0A%09c-0.5%2C0.4-0.9%2C0.9-1.4%2C1.2c-0.5%2C0.4-0.9%2C0.7-1.2%2C1.1c-0.4%2C0.4-0.7%2C0.7-1.2%2C1c-0.5%2C0.4-1%2C1-1.7%2C1.1c-0.2%2C0.1-0.5%2C0.5-0.2%2C0.7%0A%09c0.2%2C0.2%2C0.6%2C0.5%2C0.9%2C0.7c0.4%2C0.4%2C1%2C0.6%2C1%2C1.2C30.4%2C23.7%2C30.6%2C23.7%2C30.8%2C23.2z%20M29.2%2C21.7c-0.2-0.2-0.2-0.5%2C0-0.6%0A%09c0.4-0.2%2C0.7-0.5%2C1-0.7c0.4-0.2%2C0.7-0.6%2C1.1-1c0.9-0.7%2C1.7-1.6%2C2.6-2.3s1.7-1.4%2C2.6-2c0.4-0.2%2C0.6-0.6%2C1-0.9c0.1%2C0%2C0.2%2C0%2C0.4%2C0%0A%09c0.4%2C0.2%2C0.6%2C0.6%2C0.9%2C1c0.2%2C0.2%2C0.2%2C0.4-0.1%2C0.5c-0.9%2C0.6-1.9%2C1.2-2.6%2C2c-1%2C0.9-1.9%2C1.7-2.8%2C2.6c-0.9%2C0.7-1.6%2C1.5-2.5%2C2.2%0A%09c-0.1%2C0.1-0.2%2C0.1-0.5%2C0.4C29.9%2C22.5%2C29.6%2C22.1%2C29.2%2C21.7z%22/%3E%0A%3C/svg%3E%0A');
+}
+
+/* リスト */
+div[data-structure='b-list-faq-accordion'] .p-list-faq-accordion__title-area,
+div[data-structure='b-list-faq-accordion-has-img'] .p-list-faq-accordion-has-img__title-area {
+    border-bottom: solid 2px #6acd95;
+}
+
+div[data-structure='b-list-faq-accordion'] .p-list-faq-accordion__title-area:after,
+div[data-structure='b-list-faq-accordion-has-img'] .p-list-faq-accordion-has-img__title-area:after,
+div[data-structure='b-list-step'] .p-list-step {
+    color: #6acd95;
+}
+
+div[data-structure='b-list-step'] .p-list-step__body {
+    border-left: 1px solid #6acd95;
+}
+
+div[data-structure='b-premium-faq'] .p-premium-faq__icon--a {
+    background-color: #6acd95;
+}
+
+div[data-structure='b-list-step-has-img'] .p-list-step-has-img:not(:last-child) .c-border:before {
+    border-top: 20px solid #6acd95;
+}
+
+div[data-structure='b-list-step-laterally'] .p-list-step-laterally__item {
+    background: #6acd95;
+}
+div[data-structure='b-list-step-laterally'] .p-list-step-laterally__item:after {
+    border-left: 29px solid #6acd95;
+}
+@media all and (min-width: 1px) and (max-width: 480px) {
+    div[data-structure='b-list-step-laterally'] .p-list-step-laterally__item:after {
+        border-top: 49px solid #6acd95;
+        border-left: 179px solid transparent;
+    }
+}
+
+/* 表 */
+div[data-structure='b-table-comparison'] .p-table-comparison__th--accent {
+    border: solid 2px #6acd95;
+    background-color: #6acd95;
+}
+
+div[data-structure='b-table-comparison'] .p-table-comparison__td--accent {
+    border: solid 2px #6acd95;
+    background-color: #ecfff2;
+}
+
+/* その他 */
+div[data-structure='b-before-after'] .p-before-after__arrow-element:after {
+    border-left: 26px solid #6acd95;
+}
+
+div[data-structure='b-before-after'] .p-before-after__arrow-element:before {
+    border-left: 35px solid #6acd95;
+}
+
+div[data-structure='b-rectangle'] .p-others-rectangle__item-inner {
+    color: #fff;
+    background-color: #6acd95;
+}
+
+div[data-structure='b-shop-menu'] .p-others-shop-menu__label {
+    background-color: #6acd95;
+}
+
+div[data-structure='b-timeline'] .p-others-timeline__date {
+    color: #6acd95;
+}
+
+div[data-structure='b-premium-btn-set-2'] .p-premium-btn-set-2__heading {
+    background-color: #6acd95;
+}
+
+div[data-structure='b-others-price-guide'] .p-others-price-guide__card {
+    border: 3px solid #6acd95;
+}
+div[data-structure='b-others-price-guide'] .p-others-price-guide__plus-element {
+    color: #6acd95;
+}
+div[data-structure='b-others-price-guide'] .p-others-price-guide__circle {
+    background-color: #6acd95;
+}
+div[data-structure='b-others-conversational-text'] .p-others-conversational-text__myself-voice {
+    background-color: #bdecd1;
+    border: solid 1px #bdecd1;
+}
+div[data-structure='b-others-conversational-text'] .p-others-conversational-text__myself-voice:before {
+    border-left: 10px solid #bdecd1;
+}
+div[data-structure='b-others-conversational-text'] .p-others-conversational-text__myself-voice:after {
+    border-left: 10px solid #bdecd1;
+}
+
+/* 文章 */
+div[data-structure='b-sentence-card'] .p-sentence-card {
+    background-color: #edf3ef;
+    border: 1px solid #6acd95;
+}
+
+div[data-structure='b-premium-sentence-merit'] .p-premium-sentence-merit__header {
+    border-bottom: 1px solid #6acd95;
+}
+
+div[data-structure='b-premium-sentence-merit'] .p-premium-sentence-merit__label {
+    background-color: #6acd95;
+}
+div[data-structure='b-sentence-caution'] .p-sentence-caution__content-wrapper {
+    background-color: #edf3ef;
+}
+div[data-structure='b-sentence-caution'] .p-sentence-caution__content-inner {
+    background-color: #6acd95;
+}
+/* 地図 */
+div[data-structure='b-map-and-table-2rows'] .p-map-and-table-2rows__content-wrapper .c-heading {
+    border-bottom: solid 2px #6acd95;
+}
+/* 予約 */
+div[data-structure='b-reservation-application--reserve'] .p-reservation-application--reserve__wrapper {
+    box-shadow: 0 0 3px rgb(0 0 0 / 60%);
+    background-color: #6acd95;
+    padding: 0 10px 10px;
+}
+div[data-structure='b-reservation-application--reserve'] .p-reservation-application--reserve__body {
+    background-color: #fff;
+}
+div[data-structure='b-reservation--diagonal-stripe'] .u-color-theme-main {
+    color: #6acd95;
+}
+
+/* ------------------------------------------
+ブロックに対するあしらいの設定
+------------------------------------------ */
+
+/*
+● headerのボタンに余白を追加
+フローティングメニュー（PC上部固定/スマホ上下固定）
+フローティングヘッダー（PC上部固定/スマホ上下固定）
+フローティングメニュー（スマホメニュー横スクロール）
+*/
+div[data-structure='b-premium-header-nav-floating-btn--fixed'] .p-header-nav-floating-btn__editable-btn .c-btn,
+div[data-structure='b-premium-header-floating-btn--fixed'] .p-header-floating-btn__editable-btn .c-btn,
+div[data-structure='b-header-nav-floating-btn--fixed-sp-menu-scroll']
+    .p-header-nav-floating-btn--fixed-sp-menu-scroll__editable-btn
+    .c-btn,
+div[data-structure='b-header-nav-floating-btn--fixed--img-large'] .p-header-nav-floating-btn__editable-btn .c-btn,
+div[data-structure='b-header-nav-floating-btn--fixed'] .p-header-nav-floating-btn__editable-btn .c-btn,
+div[data-structure='b-premium-header-floating-btn--fixed-v2'] .p-premium-header-floating-btn--fixed-v2__editable-btn .p-premium-header-floating-btn--fixed-v2__btn-item {
+    margin-right: 8px;
+}
+/* タブレットとSPはボタンを角丸にしない */
+@media all and (min-width: 1px) and (max-width: 768px) {
+    div[data-structure='b-premium-header-nav-floating-btn--fixed'] .p-header-nav-floating-btn__editable-btn .c-btn,
+    div[data-structure='b-premium-header-floating-btn--fixed'] .p-header-floating-btn__editable-btn .c-btn,
+    div[data-structure='b-header-nav-floating-btn--fixed-sp-menu-scroll']
+        .p-header-nav-floating-btn--fixed-sp-menu-scroll__editable-btn
+        .c-btn,
+    div[data-structure='b-header-nav-floating-btn--fixed--img-large'] .p-header-nav-floating-btn__editable-btn .c-btn,
+    div[data-structure='b-header-nav-floating-btn--fixed'] .p-header-nav-floating-btn__editable-btn .c-btn,
+    div[data-structure='b-premium-header-floating-btn--fixed-v2'] .p-premium-header-floating-btn--fixed-v2__editable-btn .p-premium-header-floating-btn--fixed-v2__btn-item {
+        margin-right: 0px;
+    }
+    div[data-structure='b-premium-header-nav-floating-btn--fixed'] .p-header-nav-floating-btn__editable-btn .c-btn a,
+    div[data-structure='b-premium-header-floating-btn--fixed'] .p-header-floating-btn__editable-btn .c-btn a,
+    div[data-structure='b-header-nav-floating-btn--fixed-sp-menu-scroll']
+        .p-header-nav-floating-btn--fixed-sp-menu-scroll__editable-btn
+        .c-btn
+        a,
+    div[data-structure='b-header-nav-floating-btn--fixed--img-large']
+        .p-header-nav-floating-btn__editable-btn
+        .c-btn
+        a,
+    div[data-structure='b-header-nav-floating-btn--fixed'] .p-header-nav-floating-btn__editable-btn .c-btn a,
+    div[data-structure='b-premium-header-floating-btn--fixed-v2'] .p-premium-header-floating-btn--fixed-v2__editable-btn .p-premium-header-floating-btn--fixed-v2__btn-item a {
+        border-radius: 0;
+    }
+}
+
+/* スライダーの矢印をテーマに合わせたカラーにする */
+div[data-structure='b-premium-slider'] .swiper-button-prev,
+div[data-structure='b-premium-slider'] .swiper-button-next {
+    background-color: #ffda5f;
+}
+div[data-structure='b-premium-slider'] .swiper-button-prev:before,
+div[data-structure='b-premium-slider'] .swiper-button-next:before {
+    color: #2c2c2c;
+}
+
+/*
+● カラーをテーマに合ったカラーに変更
+メイン(中央寄せ・背景カラーオーバーレイ)背景
+メイン(左寄せ+右帯・背景カラーオーバーレイ)
+*/
+div[data-structure='b-main-set--center-overlay'] .c-bg-overlay--color:before {
+    background: rgba(248, 202, 0, 0.8);
+}
+div[data-structure='b-main-base-shop'] .c-bg-grad {
+    background-image: linear-gradient(to left, rgba(248, 202, 0, 0.9), rgba(248, 202, 0, 0.9));
+}
+
+/*
+● 罫線のカラーを変える
+見出し(中央線)
+見出し:アイコン付き
+見出し:下線
+見出し:ファーストレター
+見出し:小見出し
+見出し:マーカー
+見出し:アクセント
+見出し:二重線(上下)
+見出し:手書き飾り(上下)
+見出し:二重線
+見出し(サブタイトル付き)
+*/
+div[data-structure='b-heading-put-on-bdr'] .p-heading-put-on-bdr__inner:before,
+div[data-structure='b-heading-put-on-bdr'] .p-heading-put-on-bdr__inner:after,
+div[data-structure='b-premium-heading-icon'] .p-heading-put-on-bdr__inner:before,
+div[data-structure='b-premium-heading-icon'] .p-heading-put-on-bdr__inner:after,
+div[data-structure='b-heading-marker'] .p-heading-marker:after {
+    background-color: #ffda5f;
+}
+div[data-structure='b-heading-first-letter'] .c-heading,
+div[data-structure='b-heading-has-shoulder'] .c-heading,
+div[data-structure='b-heading-accent'] .c-heading,
+div[data-structure='b-heading-double-bdr'] .c-heading,
+div[data-structure='b-heading-has-subtitle'] .c-heading {
+    border-color: #ffda5f;
+}
+div[data-structure='b-heading-double-bdr--updown'] .p-heading-double-bdr--updown:before {
+    border-top: 2px solid #ffda5f;
+    border-bottom: 1px solid #ffda5f;
+}
+div[data-structure='b-heading-double-bdr--updown'] .p-heading-double-bdr--updown:after {
+    border-top: 1px solid #ffda5f;
+    border-bottom: 2px solid #ffda5f;
+}
+div[data-structure='b-heading-btm-bdr'] .p-heading-btm-bdr:after {
+    border-top: 2px solid #ffda5f;
+}
+div[data-structure="b-heading-has--accent"] .p-heading-has--accent-subtitle:before {
+    background: #ffda5f;
+}
+div[data-structure="b-heading-has--accent"] .p-heading-has--accent-subtitle {
+    color: #2c2c2c;
+}
+div[data-structure='b-heading-origin-bdr--updown'] .c-hr-origin--2 {
+    background-image: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0A%3Csvg%20version%3D%221.1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%0A%09%20y%3D%220px%22%20viewBox%3D%22-277%20400.9%2040%2040%22%20style%3D%22enable-background%3Anew%20-277%20400.9%2040%2040%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Cstyle%20type%3D%22text/css%22%3E%0A%09.st0%7Bfill%3Argba(248, 202, 0, 0.99)%3B%7D%0A%3C/style%3E%0A%3Cg%3E%0A%09%3Cg%3E%0A%09%09%3Cpath%20class%3D%22st0%22%20d%3D%22M-265.9%2C417.5c-0.1-0.2-0.3-0.4-0.4-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.3-0.3-0.5-0.5-1%2C0%0A%09%09%09c-0.3%2C0.3-0.6%2C0.7-0.9%2C1c-0.3%2C0.3-0.7%2C0.6-1%2C0.9c-0.2%2C0.2-0.3%2C0.3-0.5%2C0.5c-0.4%2C0.3-0.7%2C0.8-1.1%2C1.1c-0.4%2C0.3-0.6%2C0.7-1%2C1%0A%09%09%09c-0.3%2C0.3-0.6%2C0.6-0.9%2C0.9c-0.4%2C0.4-0.8%2C0.8-1.4%2C1c-0.2%2C0.1-0.4%2C0.5-0.2%2C0.6c0.2%2C0.2%2C0.5%2C0.5%2C0.7%2C0.7c0.3%2C0.3%2C0.8%2C0.5%2C0.7%2C1.1%0A%09%09%09c0.5%2C0.1%2C0.5%2C0.1%2C0.7-0.3c0%2C0%2C0-0.1%2C0-0.1c0.7-0.7%2C1.3-1.4%2C2-2.2c0.2-0.3%2C0.5-0.5%2C0.7-0.7c0.3-0.3%2C0.7-0.6%2C1-0.9%0A%09%09%09c0.3-0.3%2C0.5-0.6%2C0.8-0.8c0.5-0.5%2C1-0.9%2C1.5-1.3c0.2-0.2%2C0.5-0.3%2C0.7-0.4c0.2-0.1%2C0.3-0.2%2C0.3-0.4%0A%09%09%09C-265.5%2C417.9-265.8%2C417.8-265.9%2C417.5z%22/%3E%0A%09%3C/g%3E%0A%09%3Cg%3E%0A%09%09%3Cpath%20class%3D%22st0%22%20d%3D%22M-252.8%2C417.5c-0.1-0.2-0.3-0.4-0.4-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.3-0.3-0.5-0.5-1%2C0%0A%09%09%09c-0.3%2C0.3-0.6%2C0.7-0.9%2C1c-0.3%2C0.3-0.7%2C0.6-1%2C0.9c-0.2%2C0.2-0.3%2C0.3-0.5%2C0.5c-0.4%2C0.3-0.7%2C0.8-1.1%2C1.1c-0.4%2C0.3-0.6%2C0.7-1%2C1%0A%09%09%09c-0.3%2C0.3-0.6%2C0.6-0.9%2C0.9c-0.4%2C0.4-0.8%2C0.8-1.4%2C1c-0.2%2C0.1-0.4%2C0.5-0.2%2C0.6c0.2%2C0.2%2C0.5%2C0.5%2C0.7%2C0.7c0.3%2C0.3%2C0.8%2C0.5%2C0.7%2C1.1%0A%09%09%09c0.5%2C0.1%2C0.5%2C0.1%2C0.7-0.3c0%2C0%2C0-0.1%2C0-0.1c0.7-0.7%2C1.3-1.4%2C2-2.2c0.2-0.3%2C0.5-0.5%2C0.7-0.7c0.3-0.3%2C0.7-0.6%2C1-0.9%0A%09%09%09c0.3-0.3%2C0.5-0.6%2C0.8-0.8c0.5-0.5%2C1-0.9%2C1.5-1.3c0.2-0.2%2C0.5-0.3%2C0.7-0.4c0.2-0.1%2C0.3-0.2%2C0.3-0.4%0A%09%09%09C-252.4%2C417.9-252.7%2C417.8-252.8%2C417.5z%22/%3E%0A%09%3C/g%3E%0A%09%3Cg%3E%0A%09%09%3Cpath%20class%3D%22st0%22%20d%3D%22M-239.8%2C417.5c-0.1-0.2-0.3-0.4-0.4-0.6c-0.1-0.1-0.2-0.2-0.3-0.3c-0.3-0.3-0.5-0.5-1%2C0%0A%09%09%09c-0.3%2C0.3-0.6%2C0.7-0.9%2C1c-0.3%2C0.3-0.7%2C0.6-1%2C0.9c-0.2%2C0.2-0.3%2C0.3-0.5%2C0.5c-0.4%2C0.3-0.7%2C0.8-1.1%2C1.1c-0.4%2C0.3-0.6%2C0.7-1%2C1%0A%09%09%09c-0.3%2C0.3-0.6%2C0.6-0.9%2C0.9c-0.4%2C0.4-0.8%2C0.8-1.4%2C1c-0.2%2C0.1-0.4%2C0.5-0.2%2C0.6c0.2%2C0.2%2C0.5%2C0.5%2C0.7%2C0.7c0.3%2C0.3%2C0.8%2C0.5%2C0.7%2C1.1%0A%09%09%09c0.5%2C0.1%2C0.5%2C0.1%2C0.7-0.3c0%2C0%2C0-0.1%2C0-0.1c0.7-0.7%2C1.3-1.4%2C2-2.2c0.2-0.3%2C0.5-0.5%2C0.7-0.7c0.3-0.3%2C0.7-0.6%2C1-0.9%0A%09%09%09c0.3-0.3%2C0.5-0.6%2C0.8-0.8c0.5-0.5%2C1-0.9%2C1.5-1.3c0.2-0.2%2C0.5-0.3%2C0.7-0.4c0.2-0.1%2C0.3-0.2%2C0.3-0.4%0A%09%09%09C-239.3%2C417.9-239.6%2C417.8-239.8%2C417.5z%22/%3E%0A%09%3C/g%3E%0A%3C/g%3E%0A%3C/svg%3E');
+}
+
+/*
+● 角丸にする
+見出し:二重線
+見出し:吹き出し(色あり)
+見出し:吹き出し(色なし)
+見出し:吹き出し
+*/
+div[data-structure='b-heading-double-bdr'] .c-heading,
+div[data-structure='b-heading-balloon--invert'] .c-heading,
+div[data-structure='b-heading-balloon--ghost'] .c-heading,
+div[data-structure='b-heading-balloon'] .c-heading {
+    border-radius: 10px;
+}
+
+/*
+● 背景をストライプにする
+メリット
+上画像(枠付)
+左画像(枠付)
+右画像(枠付)
+お客様の声（premium/b-premium-cards-img-left）
+お客様の声(2列)（premium/b-premium-cards-img-left--2col）
+お客様の声(2列)（cards/b-cards-voice）
+お申込みボックス
+*/
+div[data-structure='b-premium-sentence-merit'] .c-bg-color,
+div[data-structure='b-article--bdr'] .c-bg-img--cover,
+div[data-structure='b-article-img-left--bdr'] .c-bg-img--cover,
+div[data-structure='b-article-img-right--bdr'] .c-bg-img--cover,
+div[data-structure='b-premium-cards-img-left'] .c-bg-color,
+div[data-structure='b-cards-voice'] .c-bg-img--cover,
+div[data-structure='b-premium-cards-img-left--2col'] .c-bg-color,
+div[data-structure='b-premium-btn-set-4'] .c-bg-color {
+    background-color: #fbeeb4;
+    background-image: repeating-linear-gradient(-90deg, #fff, #fff 20px, transparent 0, transparent 40px);
+}
+
+/*
+● 枠線を黄色に変更＋角丸にする
+上画像(枠付)
+左画像(枠付)
+右画像(枠付)
+枠付き（文章ブロック）
+よくある質問(枠付)
+リスト(枠付)
+*/
+div[data-structure='b-article--bdr'] .c-border,
+div[data-structure='b-article-img-left--bdr'] .c-border,
+div[data-structure='b-article-img-right--bdr'] .c-border,
+div[data-structure='b-sentence-set--bdr'] .c-border,
+div[data-structure='b-list-faq--bdr'] .c-border,
+div[data-structure='b-list--bdr'] .c-border,
+div[data-structure='b-cards-bdr--sp2col'] .c-border {
+    border-color: #ffda5f;
+    border-radius: 20px;
+}
+div[data-structure='b-list-faq--bdr'] .c-heading,
+div[data-structure='b-list--bdr'] .c-heading {
+    border-color: #ffda5f;
+}
+
+/*
+● 枠線を黒に変更
+メリット
+お客様の声（premium/b-premium-cards-img-left）
+お客様の声(2列)（cards/b-cards-voice）
+*/
+div[data-structure='b-premium-sentence-merit'] .p-premium-sentence-merit,
+div[data-structure='b-premium-cards-img-left'] .p-premium-cards-img-left__card,
+div[data-structure='b-premium-cards-img-left--2col'] .p-premium-cards-img-left__card {
+    border: solid 3px #2c2c2c;
+    border-radius: 20px;
+}
+div[data-structure='b-premium-sentence-merit'] .p-premium-sentence-merit__label,
+div[data-structure='b-premium-cards-img-left'] .p-premium-cards-img-left__label {
+    background-color: #2c2c2c;
+}
+div[data-structure='b-premium-sentence-merit'] .p-premium-sentence-merit__header {
+    border-bottom: 3px solid #2c2c2c;
+}
+
+/*
+● 画像を角丸デザインに変更
+左フル画像
+右フル画像
+左フル画像(16:9)
+右フル画像(16:9)
+*/
+div[data-structure='b-article-img-full-left'] img,
+div[data-structure='b-article-img-full-left-16-9'] img {
+    border-radius: 0 300px 300px 0;
+}
+div[data-structure='b-article-img-full-right'] img,
+div[data-structure='b-article-img-full-right-16-9'] img {
+    border-radius: 300px 0 0 300px;
+}
+
+/*
+● 文章エリアのデザイン変更
+左寄せ(背景画像あり)
+右寄せ(背景画像あり)
+*/
+div[data-structure='b-article-body-left'] .p-article-body__pane,
+div[data-structure='b-article-body-right'] .p-article-body__pane {
+    background-color: rgba(255, 255, 255);
+    border-radius: 40px;
+    margin: 20px;
+    border: solid 5px #ffda5f;
+}
+
+/* お客様の声(2列)+ボーダーのデザイン変更 */
+div[data-structure='b-cards-voice-bordered'] .p-card-voice-bordered__heading {
+    background-color: #2c2c2c;
+}
+div[data-structure='b-cards-voice-bordered'] .c-heading h2 {
+    color: #ffda5f;
+}
+div[data-structure='b-cards-voice-bordered'] .p-card-voice-bordered {
+    border-top: 4px solid #ffda5f;
+}
+div[data-structure='b-cards-voice-bordered'] .p-card-voice-bordered__img img {
+    border: 3px solid #ffda5f;
+}
+
+/* よくある質問の「Q」の背景色をテーマに合わせて変更 */
+div[data-structure='b-premium-faq'] .p-premium-faq__icon--q,
+div[data-structure='b-list-faq--bdr'] .c-symbol {
+    background-color: #ffda5f;
+}
+
+/* 地図＋テーブル(２列)の項目背景色を変更 */
+div[data-structure='b-map-and-table-2rows'] .p-map-and-table-2rows__title {
+    background-color: #ffda5f;
+}
+
+/* 表のデザイン変更 */
+div[data-structure='b-table--bdr'] .c-tr--bdr th,
+div[data-structure='b-table--bdr-btm'] .c-tr--bdr th,
+div[data-structure='b-table-thead--bdr-btm'] .c-tr--bdr th,
+div[data-structure='b-table-thead--bdr'] .c-tr--bdr th,
+div[data-structure='b-table-thead-bdr--sp-scroll'] .c-tr--bdr th,
+div[data-structure='b-table-thead--bgcolor-bdr-btm'] .c-tr--bdr th,
+div[data-structure='b-table-thead--bgcolor-bdr-btm'] .c-thead--color thead th,
+div[data-structure='b-table-thead--bgcolor-bdr-btm'] .c-thead--color thead td,
+div[data-structure='b-table-thead--bgcolor-bdr'] .c-tr--bdr th,
+div[data-structure='b-table-thead--bgcolor-bdr'] .c-thead--color thead th,
+div[data-structure='b-table-thead--bgcolor-bdr'] .c-thead--color thead td,
+div[data-structure='b-table--sm'] .c-th--right th,
+div[data-structure='b-table'] tbody th,
+div[data-structure='b-table-thead'] th,
+div[data-structure='b-table-thead'] tbody th,
+div[data-structure='b-table-thead--sp-scroll'] th,
+div[data-structure='b-table-thead--sp-scroll'] tbody th,
+div[data-structure='b-table-thead--bdr-btm--sp-scroll'] .c-tr--bdr th,
+div[data-structure='b-table-thead--bgcolor-bdr-btm--sp-scroll'] .c-tr--bdr th, 
+div[data-structure='b-table-thead--bgcolor-bdr-btm--sp-scroll'] .c-thead--color thead th,
+div[data-structure='b-table-thead-bdr--image--sp-scroll'] .c-thead--color th,
+div[data-structure='b-table-thead--bdr--sp-scroll'] th,
+div[data-structure='b-table-thead--bdr--sp-scroll'] tbody th {
+    border: solid 5px #fffff3;
+    background-color: #ffda5f;
+}
+div[data-structure='b-table--bdr'] .c-tr--bdr td,
+div[data-structure='b-table--bdr-btm'] .c-tr--bdr td,
+div[data-structure='b-table-thead--bdr-btm'] .c-tr--bdr td,
+div[data-structure='b-table-thead--bdr'] .c-tr--bdr td,
+div[data-structure='b-table-thead-bdr--sp-scroll'] .c-tr--bdr td,
+div[data-structure='b-table-thead--bgcolor-bdr-btm'] .c-tr--bdr td,
+div[data-structure='b-table-thead--bgcolor-bdr'] .c-tr--bdr td,
+div[data-structure='b-table--sm'] .c-tr--bdr td,
+div[data-structure='b-table'] .c-tr--bdr td,
+div[data-structure='b-table-thead'] .c-tr--bdr td,
+div[data-structure='b-table-thead--bdr-btm--sp-scroll'] .c-tr--bdr td,
+div[data-structure='b-table-thead--bgcolor-bdr-btm--sp-scroll'] .c-tr--bdr td,
+div[data-structure='b-table-thead--bdr--sp-scroll'] .c-tr--bdr td {
+    border-style: none;
+}
+
+/* フォームのあしらい変更 */
+.c-form {
+    border: solid 2px #ffda5f;
+    padding: 40px;
+    background-color: #fbfbfc;
+    border-radius: 30px;
+}
+/* SPの余白調整 */
+@media all and (max-width: 480px) {
+    .c-form {
+        padding: 10px;
+    }
+}
+.p-form-simple input[type='text'],
+.p-form-simple input[type='email'],
+.p-form-simple input[type='tel'],
+.p-form-simple input[type='number'] {
+    background-color: #fff;
+    box-shadow: inset 0 -1px 0 0 rgba(248, 202, 0, 1);
+}
+.c-form input:placeholder-shown,
+.c-form textarea:placeholder-shown {
+    border-bottom: 1px solid #ffda5f;
+    background-color: #fbfbfc;
+}
+.c-form input[type='text'],
+.c-form input[type='email'],
+.c-form input[type='tel'],
+.c-form input[type='date'],
+.c-form input[type='number'],
+.c-form textarea,
+.c-form select {
+    border: none;
+    box-shadow: inset 0 -1px 0 0 rgba(248, 202, 0, 1);
+}
+/* 選択時の色をあしらいに合わせる */
+.p-form-simple input[type='text']:focus,
+.p-form-simple input[type='email']:focus,
+.p-form-simple input[type='tel']:focus,
+.p-form-simple input[type='number']:focus,
+.c-form textarea:focus,
+.c-form select:focus {
+    background-color: #fffdf2;
+    box-shadow: inset 0 -2px 0 0 rgba(248, 202, 0, 1);
+}
+.c-form input[type='text']:focus,
+.c-form input[type='email']:focus,
+.c-form input[type='tel']:focus,
+.c-form input[type='date']:focus,
+.c-form input[type='number']:focus,
+.c-form textarea:focus,
+.c-form select:focus {
+    border-color: transparent;
+}
+/* 必須ラベルの色をメインカラーにする */
+.customFormGroup_ttl_required:after {
+    background-color: #ffda5f;
+}
+/* 背景画像ありのフォームのみあしらいを変更 */
+div[data-structure='b-premium-form'] .p-premium-form__inner {
+    border: solid 5px #ffda5f;
+}
+div[data-structure='b-premium-form'] .c-form {
+    border: none;
+    background: inherit;
+    box-shadow: none;
+    padding: 0;
+}
+div[data-structure='b-premium-form'] .p-premium-form .c-form div .form-group:nth-child(even) {
+    background-color: #fff;
+}
+div[data-structure='b-premium-form'] .c-form input:placeholder-shown,
+div[data-structure='b-premium-form'] .c-form textarea:placeholder-shown {
+    background-color: inherit;
+}
+div[data-structure='b-premium-form'] .c-form input[type='text'],
+div[data-structure='b-premium-form'] .c-form input[type='email'],
+div[data-structure='b-premium-form'] .c-form input[type='tel'],
+div[data-structure='b-premium-form'] .c-form input[type='date'],
+div[data-structure='b-premium-form'] .c-form input[type='number'],
+div[data-structure='b-premium-form'] .c-form textarea {
+    border: none;
+    box-shadow: inset 0 -1px 0 0 rgb(161 191 174);
+}
+
+/* ブロック調整 */
+/* 背景がメインカラーの見出しは文字色を白にする */
+div[data-structure='b-main-multi-photo'] h2[data-structure='e-heading'],
+div[data-structure='b-main-set-6--bg-dark'] h2[data-structure='e-heading'],
+div[data-structure='b-article--bg-dark'] h2[data-structure='e-heading'],
+div[data-structure='b-heading-balloon--invert'] h2[data-structure='e-heading'],
+div[data-structure='b-heading-arrow--has-subtext'] h2[data-structure='e-heading'],
+div[data-structure='b-premium-profile-set2'] h2[data-structure='e-heading'],
+div[data-structure='b-premium-profile-set'] h2[data-structure='e-heading'],
+div[data-structure='b-heading-arrow'] h2[data-structure='e-heading'],
+div[data-structure='b-sentence-caution'] h2[data-structure='e-heading'],
+div[data-structure='b-premium-heading-frame'] h2[data-structure='e-heading'],
+div[data-structure='b-heading-ribbon--flat'] h2[data-structure='e-heading'],
+div[data-structure='b-premium-interview'] h2[data-structure='e-heading'],
+div[data-structure='b-article-point'] h2[data-structure='e-heading'],
+div[data-structure='b-heading-balloon'] .p-heading-balloon h2[data-structure='e-heading'],
+div[data-structure='b-heading-dogear'] .p-heading-dogear h2[data-structure='e-heading'],
+div[data-structure='b-order-set-has-label'] .p-order-label__label-text h2[data-structure='e-heading'],
+div[data-structure='b-main-base-shop'] .p-main-base-shop__heading h2[data-structure='e-heading'],
+div[data-structure='b-main-slash'] h2[data-structure='e-heading'],
+div[data-structure='b-premium-contact-set'] h2[data-structure='e-heading'] {
+    color: #fff;
+}
+/* 不要な画像影を削除する */
+div[data-structure='b-premium-profile-set'] .c-img--responsive img,
+div[data-structure='b-sentence-caution'] .c-img--responsive img,
+div[data-structure='b-premium-steps'] .c-img--responsive img,
+div[data-structure='b-main-set--center'] .c-img--responsive img,
+div[data-structure='b-main-set--center-overlay'] .c-img--responsive img,
+div[data-structure='b-main-set'] .c-img--responsive img,
+div[data-structure='b-premium-header-nav-floating-btn--fixed'] .c-img--responsive img,
+div[data-structure='b-premium-header-floating-btn--fixed'] .c-img--responsive img,
+div[data-structure='b-header-nav-floating-btn--fixed-sp-menu-scroll'] .c-img--responsive img,
+div[data-structure='b-list-has-img--reverse'] .u-float-left.c-img--responsive img,
+div[data-structure='b-list-has-img'] .u-float-left.c-img--responsive img,
+div[data-structure='b-premium-heading-icon'] .c-img--responsive img,
+div[data-structure='b-list-grid--2col'] .u-float-left.c-img--responsive img,
+div[data-structure='seminar/b-list-grid--2col'] .u-float-left.c-img--responsive img,
+div[data-structure='b-list--bdr'] .u-float-left.c-img--responsive img,
+div[data-structure='b-article-profile'] .c-img-icon.c-img--responsive img,
+div[data-structure='b-premium-cards-img-left'] .c-img--responsive img,
+div[data-structure='b-cards-voice'] .c-img--responsive img,
+div[data-structure='b-premium-cards-img-left--2col'] .c-img--responsive img,
+div[data-structure='b-premium-profile-set2'] .c-img--responsive img,
+div[data-structure='b-btns-img--icon-bare'] .c-img--responsive img,
+div[data-structure='b-cards-voice-bordered'] .c-img--responsive img,
+div[data-structure='b-header-logo-img'] .c-img--responsive img,
+div[data-structure='b-main-base-shop'] .c-img--responsive img,
+div[data-structure='b-premium-list-note2'] .c-img--responsive img,
+div[data-structure='b-premium-list-note'] .c-img--responsive img,
+div[data-structure='b-premium-contact-set'] .c-img--responsive img,
+div[data-structure='b-premium-btn-has-img'] .c-img--responsive img,
+div[data-structure='b-premium-letter-card'] .c-img--responsive img,
+div[data-structure='b-btns-img--icon'] .c-img--responsive img,
+div[data-structure='b-premium-logo-set'] .c-img--responsive img,
+div[data-structure='b-premium-voices'] .c-img--responsive img,
+div[data-structure='b-cards-img-right--3col'] .c-img--responsive img,
+div[data-structure='b-cards-img-left--3col'] .c-img--responsive img,
+div[data-structure='b-premium-main-set'] .c-img--responsive img,
+div[data-structure='b-premium-main-multi-photo'] .c-img--responsive img,
+div[data-structure='b-main-three-badges'] .c-img--responsive img,
+div[data-structure='b-main-multi-photo'] .c-img--responsive img,
+div[data-structure='b-main-slash'] .c-img--responsive img,
+div[data-structure='b-cards--2col-circle'] .c-img--responsive img,
+div[data-structure='b-cards--3col-circle'] .c-img--responsive img,
+div[data-structure='b-cards--4col-circle'] .c-img--responsive img,
+div[data-structure='b-cards--5col-circle'] .c-img--responsive img,
+div[data-structure='b-cards--6col-circle'] .c-img--responsive img,
+div[data-structure='b-premium-btn-set-2'] .c-img--responsive img,
+div[data-structure='b-profile'] .c-img--responsive img,
+div[data-structure='b-medal-set'] .c-img--responsive img,
+div[data-structure='b-header-logo-img--grad'] .c-img--responsive img,
+div[data-structure='b-header-fb-like-btn'] .c-img--responsive img,
+div[data-structure='p-heading-with-image'] .c-img--responsive img,
+div[data-structure='b-premium-product-view'] .c-img--responsive img,
+div[data-structure='b-premium-article-thinking'] .c-img--responsive img,
+div[data-structure='b-premium-article-box-img-right'] .c-img--responsive img,
+div[data-structure='b-premium-article-box-img-left'] .c-img--responsive img,
+div[data-structure='b-article-point'] .c-img--responsive img,
+div[data-structure='b-article-point-3'] .c-img--responsive img,
+div[data-structure='b-article-point-2'] .c-img--responsive img,
+div[data-structure='b-article-thinking'] .c-img--responsive img,
+div[data-structure='b-header-fb-like-btn--fixed'] .c-img--responsive img,
+div[data-structure='b-sentence-letter'] .c-img--responsive img,
+div[data-structure='b-premium-btn-has-img'] .c-btn a,
+div[data-structure='b-header-nav-floating-btn--fixed--img-large'] .c-img--responsive img {
+    border: none;
+}
+div[data-structure='b-premium-profile-set'] .c-img--responsive,
+div[data-structure='b-sentence-caution'] .c-img--responsive,
+div[data-structure='b-premium-steps'] .c-img--responsive,
+div[data-structure='b-main-set--center'] .c-img--responsive,
+div[data-structure='b-main-set--center-overlay'] .c-img--responsive,
+div[data-structure='b-main-set'] .c-img--responsive,
+div[data-structure='b-premium-header-nav-floating-btn--fixed'] .c-img--responsive,
+div[data-structure='b-premium-header-floating-btn--fixed'] .c-img--responsive,
+div[data-structure='b-header-nav-floating-btn--fixed-sp-menu-scroll'] .c-img--responsive,
+div[data-structure='b-list-has-img--reverse'] .u-float-left.c-img--responsive,
+div[data-structure='b-list-has-img'] .u-float-left.c-img--responsive,
+div[data-structure='b-premium-heading-icon'] .c-img--responsive,
+div[data-structure='b-list-grid--2col'] .u-float-left.c-img--responsive,
+div[data-structure='seminar/b-list-grid--2col'] .u-float-left.c-img--responsive,
+div[data-structure='b-list--bdr'] .u-float-left.c-img--responsive,
+div[data-structure='b-premium-cards-img-left'] .c-img--responsive,
+div[data-structure='b-cards-voice'] .c-img--responsive,
+div[data-structure='b-premium-cards-img-left--2col'] .c-img--responsive,
+div[data-structure='b-list-center-img'] .c-img--responsive,
+div[data-structure='b-list-body-right'] .c-img--responsive,
+div[data-structure='seminar/b-list-body-right'] .c-img--responsive,
+div[data-structure='b-list'] .c-img--responsive,
+div[data-structure='b-header-nav-logo-img--fixed'] .c-img--responsive,
+div[data-structure='b-header-fb-like-btn--fixed'] .c-img--responsive,
+div[data-structure='p-heading-with-image'] .c-img--responsive,
+div[data-structure='b-header-logo-img'] .c-img--responsive {
+    padding: 0;
+}
+/* border-radiusのかかっているブロックを元に戻す */
+/* 正円に戻す */
+div[data-structure='b-main-badge'] .c-btn a,
+div[data-structure='b-article-profile'] .c-img--responsive img,
+div[data-structure='b-cards-voice-bordered'] .c-img--responsive img,
+div[data-structure='b-premium-cards-img-left'] .c-img--responsive img,
+div[data-structure='b-cards-voice'] .c-img--responsive img,
+div[data-structure='b-premium-cards-img-left--2col'] .c-img--responsive img,
+div[data-structure='b-cards-img-circle--sp2col'] .c-img--responsive img {
+    border-radius: 50%;
+}
+/* 四角に戻す */
+div[data-structure='b-premium-profile-set'] .c-img--responsive img,
+div[data-structure='b-sentence-caution'] .c-img--responsive img,
+div[data-structure='b-premium-steps'] .c-img--responsive img,
+div[data-structure='b-main-set--center'] .c-img--responsive img,
+div[data-structure='b-main-set--center-overlay'] .c-img--responsive img,
+div[data-structure='b-main-set'] .c-img--responsive img,
+div[data-structure='b-premium-header-nav-floating-btn--fixed'] .c-img--responsive img,
+div[data-structure='b-premium-header-floating-btn--fixed'] .c-img--responsive img,
+div[data-structure='b-header-nav-floating-btn--fixed-sp-menu-scroll'] .c-img--responsive img,
+div[data-structure='b-list-has-img--reverse'] .u-float-left.c-img--responsive img,
+div[data-structure='b-list-has-img'] .u-float-left.c-img--responsive img,
+div[data-structure='b-premium-heading-icon'] .c-img--responsive img,
+div[data-structure='b-list-grid--2col'] .u-float-left.c-img--responsive img,
+div[data-structure='seminar/b-list-grid--2col'] .u-float-left.c-img--responsive img,
+div[data-structure='b-list--bdr'] .u-float-left.c-img--responsive img,
+div[data-structure='b-article-profile'] .c-img-icon.c-img--responsive img,
+div[data-structure='b-premium-profile-set2'] .c-img--responsive img,
+div[data-structure='b-btns-img--icon-bare'] .c-img--responsive img,
+div[data-structure='b-header-logo-img'] .c-img--responsive img,
+div[data-structure='b-main-base-shop'] .c-img--responsive img,
+div[data-structure='b-premium-letter-card'] .c-img--responsive,
+div[data-structure='b-premium-list-note2'] .c-img--responsive img,
+div[data-structure='b-premium-list-note'] .c-img--responsive img,
+div[data-structure='b-premium-contact-set'] .c-img--responsive img,
+div[data-structure='b-premium-btn-has-img'] .c-img--responsive img,
+div[data-structure='b-btns-img--icon'] .c-img--responsive img,
+div[data-structure='b-premium-main-set'] .c-img--responsive img,
+div[data-structure='b-premium-main-multi-photo'] .c-img--responsive img,
+div[data-structure='b-main-multi-photo'] .c-img--responsive img,
+div[data-structure='b-main-slash'] .c-img--responsive img,
+div[data-structure='b-cards--2col-circle'] .c-img--responsive img,
+div[data-structure='b-cards--3col-circle'] .c-img--responsive img,
+div[data-structure='b-cards--4col-circle'] .c-img--responsive img,
+div[data-structure='b-cards--5col-circle'] .c-img--responsive img,
+div[data-structure='b-cards--6col-circle'] .c-img--responsive img,
+div[data-structure='b-premium-btn-set-2'] .c-img--responsive img,
+div[data-structure='b-profile'] .c-img--responsive img,
+div[data-structure='b-medal-set'] .c-img--responsive img,
+div[data-structure='b-header-logo-img--grad'] .c-img--responsive img,
+div[data-structure='b-header-fb-like-btn'] .c-img--responsive img,
+div[data-structure='p-heading-with-image'] .c-img--responsive img,
+div[data-structure='b-premium-product-view'] .c-img--responsive img,
+div[data-structure='b-premium-article-thinking'] .c-img--responsive img,
+div[data-structure='b-premium-article-box-img-right'] .c-img--responsive img,
+div[data-structure='b-premium-article-box-img-left'] .c-img--responsive img,
+div[data-structure='b-article-point'] .c-img--responsive img,
+div[data-structure='b-article-point-3'] .c-img--responsive img,
+div[data-structure='b-article-point-2'] .c-img--responsive img,
+div[data-structure='b-article-thinking'] .c-img--responsive img,
+div[data-structure='b-header-fb-like-btn--fixed'] .c-img--responsive img,
+div[data-structure='b-sentence-letter'] .c-img--responsive img,
+div[data-structure='b-header-nav-logo-img--fixed'] .c-img--responsive img,
+div[data-structure='b-btn-app-download'] .c-img--responsive img,
+div[data-structure='b-header-nav-floating-btn--fixed--img-large'] .c-img--responsive img {
+    border-radius: 0;
+}
+/* ボタンの微調整 */
+div[data-structure='b-header-logo-text-2'] .c-btn,
+div[data-structure='b-article-has-number'] .c-btn {
+    padding: 5px 10px;
+}
+div[data-structure='b-premium-main-multi-photo'] .p-premium-main-multi-photo__btn a,
+div[data-structure='b-main-multi-photo'] .p-main-multi-photo__btn a {
+    box-shadow: none;
+}
+/* 文字色の調整 */
+div[data-structure='b-main-badge'] .c-btn a {
+    color: #2c2c2c;
+}
+/* 画像まわりの影を削除 */
+div[data-structure='b-premium-faq'] .p-premium-faq__img img,
+div[data-structure='b-premium-article-img-right'] .p-premium-article-img-right__item-img img {
+    box-shadow: none;
+}
+/* アイコン周りの調整 */
+div[data-structure='b-list-center-img'] .c-img--responsive img,
+div[data-structure='b-list-body-right'] .c-img--responsive img,
+div[data-structure='seminar/b-list-body-right'] .c-img--responsive img,
+div[data-structure='b-list'] .c-img--responsive img,
+div[data-structure='b-header-nav-logo-img--fixed'] .c-img--responsive img {
+    border: none;
+}
+/* 画像まわりの調整 */
+div[data-structure='b-order-cards-bordered--3col'] .c-img--responsive img,
+div[data-structure='b-btn-app-download'] .c-img--responsive img {
+    border: none;
+}
+
+.p-cards-voice--circle-img--3col__item--num [data-structure=e-heading]{
+  border-color: #ffda5f;
+}
+
+/* 画像＋文字オーバーレイリンク */
+.p-btns-img-text-overlay__img{
+    padding:0;
+}
+/* フローティングメニュー（PC上部固定/スマホ上下固定） */
+.p-header-nav-floating-btn--fixed .navigationHeader .p-header__logo img{
+    border-radius: 0;
+    border: 0px;
+}
+
+/* 上画像（3列・数字大）*/
+[data-structure="b-cards-numbers--big"] .u-color-theme-main {
+    color: #ffda5f;
+}
+/* 商品+決済用ボタン(タグ付) */
+.p-order-has-tags__item {
+    background-color: #ffda5f;
+    color: #2c2c2c;
+    border: 1px solid #2c2c2c;
+}
+/* 吹き出し */
+.p-cards-balloon-circle-img .p-cards-balloon-circle-img__card-text,
+.p-cards-balloon-circle-img .p-cards-balloon-circle-img__card-dot {
+    background-color: #bdecd1;
+}
+.p-cards-balloon-circle-img .p-cards-balloon-circle-img__card-img img{
+    border: solid 10px #ffda5f;
+}
+/* ビフォーアフター(リスト) */
+.p-article-before-after-list__arrow--active .p-article-before-after-list__item{
+    border-color: #6acd95;
+}
+.p-article-before-after-list__arrow--active .p-article-before-after-list__icon svg{
+    fill: #6acd95;
+}
+.p-article-before-after-list__arrow::after{
+    border-left-color: #6acd95;
+}
+.p-article-before-after-list__item,
+.p-article-before-after-list__arrow--active .p-article-before-after-list__item {
+    background-color: #edf3ef;
+}
+@media(max-width:480px){
+    .p-article-before-after-list__arrow::after{
+        border-top-color: #6acd95;
+        border-left-color: transparent;
+    }
+}
+
