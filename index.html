@@ -491,7 +491,90 @@
                 <div class="p-form p-ed-form c-form m_form">
                   <div class="c-inner c-inner--sm c-inner--one-elem">
                         <div class="only-edit"><i class="fa fa-info-circle"></i>フォームから送信された内容はマイページの「フォーム」ボタンから確認できます。</div>
-                    <div style="padding:24px;background:#fff8df;color:#222;text-align:center"><p>お問い合わせフォームは移行準備中です。</p><p>お問い合わせは <a href="mailto:info@coco-labo.net">info@coco-labo.net</a> へお願いいたします。</p></div></div>
+                    <div style="padding:24px;background:#fff;border:1px solid #e5e5e5;border-radius:8px;text-align:left">
+<form id="cocolabo-contact-form">
+  <div style="margin-bottom:16px">
+    <label for="contact-name" style="display:block;font-weight:700;margin-bottom:6px">お名前 <span style="color:#d33">必須</span></label>
+    <input id="contact-name" name="name" type="text" autocomplete="name" required maxlength="80" style="width:100%;box-sizing:border-box;padding:12px;border:1px solid #ccc;border-radius:4px">
+  </div>
+  <div style="margin-bottom:16px">
+    <label for="contact-email" style="display:block;font-weight:700;margin-bottom:6px">メールアドレス <span style="color:#d33">必須</span></label>
+    <input id="contact-email" name="email" type="email" autocomplete="email" required maxlength="254" style="width:100%;box-sizing:border-box;padding:12px;border:1px solid #ccc;border-radius:4px">
+  </div>
+  <div style="margin-bottom:16px">
+    <label for="contact-tel" style="display:block;font-weight:700;margin-bottom:6px">電話番号</label>
+    <input id="contact-tel" name="tel" type="tel" autocomplete="tel" maxlength="40" style="width:100%;box-sizing:border-box;padding:12px;border:1px solid #ccc;border-radius:4px">
+  </div>
+  <div style="margin-bottom:16px">
+    <label for="contact-category" style="display:block;font-weight:700;margin-bottom:6px">お問い合わせ種別</label>
+    <select id="contact-category" name="category" style="width:100%;box-sizing:border-box;padding:12px;border:1px solid #ccc;border-radius:4px;background:#fff">
+      <option value="体験参加">体験参加</option>
+      <option value="出張講座・ワークショップ">出張講座・ワークショップ</option>
+      <option value="スクールについて">スクールについて</option>
+      <option value="取材・連携・協働">取材・連携・協働</option>
+      <option value="その他">その他</option>
+    </select>
+  </div>
+  <div style="margin-bottom:16px">
+    <label for="contact-message" style="display:block;font-weight:700;margin-bottom:6px">お問い合わせ内容 <span style="color:#d33">必須</span></label>
+    <textarea id="contact-message" name="message" rows="7" required maxlength="5000" style="width:100%;box-sizing:border-box;padding:12px;border:1px solid #ccc;border-radius:4px;resize:vertical"></textarea>
+  </div>
+  <div aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden">
+    <label for="contact-website">Website</label>
+    <input id="contact-website" name="website" type="text" tabindex="-1" autocomplete="off">
+  </div>
+  <div style="margin-bottom:18px">
+    <label style="display:flex;gap:8px;align-items:flex-start">
+      <input id="contact-consent" name="consent" type="checkbox" required style="margin-top:4px">
+      <span><a href="/privacypolicy" target="_blank" rel="noopener">個人情報保護方針</a>に同意のうえ送信します。</span>
+    </label>
+  </div>
+  <button id="contact-submit" type="submit" style="width:100%;padding:14px 20px;border:0;border-radius:999px;background:#28c3d4;color:#fff;font-size:16px;font-weight:700;cursor:pointer">送信する</button>
+  <p id="contact-status" role="status" aria-live="polite" style="margin:14px 0 0;text-align:center;min-height:1.5em"></p>
+</form>
+<script>
+(function(){
+  var form=document.getElementById('cocolabo-contact-form');
+  if(!form) return;
+  var button=document.getElementById('contact-submit');
+  var status=document.getElementById('contact-status');
+  form.addEventListener('submit',async function(e){
+    e.preventDefault();
+    if(!form.reportValidity()) return;
+    button.disabled=true;
+    button.textContent='送信中…';
+    status.textContent='';
+    try{
+      var payload={
+        name:form.elements.name.value.trim(),
+        email:form.elements.email.value.trim(),
+        tel:form.elements.tel.value.trim(),
+        category:form.elements.category.value,
+        message:form.elements.message.value.trim(),
+        website:form.elements.website.value
+      };
+      var res=await fetch('/api/contact',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify(payload)
+      });
+      var data={};
+      try{data=await res.json();}catch(_e){}
+      if(!res.ok) throw new Error(data.error||'送信に失敗しました。');
+      form.reset();
+      status.style.color='#167a3a';
+      status.textContent='お問い合わせを送信しました。ありがとうございます。';
+    }catch(err){
+      status.style.color='#b42318';
+      status.textContent=err && err.message ? err.message : '送信に失敗しました。時間をおいて再度お試しください。';
+    }finally{
+      button.disabled=false;
+      button.textContent='送信する';
+    }
+  });
+})();
+</script>
+</div></div>
                 </div>
               </div>
             </div>
