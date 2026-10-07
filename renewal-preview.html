@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ココロエデュケーションラボ｜宝物は、キミの見た景色。</title>
+<meta name="description" content="遊ぶ。つくる。表現する。つながる。ココロエデュケーションラボは、子どもたちの「やってみたい！」から未来をひらく体験をつくります。">
+<style>
+:root{
+  --ink:#252525;--muted:#6d6d6d;--paper:#fffdf8;--cream:#f7f2e7;
+  --red:#e84f52;--blue:#3e79c7;--yellow:#f0b93d;--green:#5d9c76;
+  --line:#e8e2d7;--radius:26px;--shadow:0 18px 45px rgba(63,48,27,.10)
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:"Hiragino Maru Gothic ProN","Hiragino Sans","Yu Gothic",Meiryo,sans-serif;color:var(--ink);background:var(--paper);line-height:1.8}
+a{color:inherit;text-decoration:none}img{display:block;width:100%;height:auto}.wrap{width:min(1160px,calc(100% - 40px));margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(255,253,248,.92);backdrop-filter:blur(14px);border-bottom:1px solid rgba(232,226,215,.8)}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;font-weight:800}.brand img{width:54px;height:54px;object-fit:contain}.brand small{display:block;font-size:11px;letter-spacing:.08em;color:var(--muted)}
+.navlinks{display:flex;gap:24px;align-items:center;font-weight:700;font-size:14px}.navlinks a:last-child{background:var(--ink);color:#fff;padding:11px 18px;border-radius:999px}
+.hero{padding:52px 0 76px;overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center}
+.kicker{font-size:13px;font-weight:800;letter-spacing:.16em;color:var(--red);margin-bottom:18px}.hero h1{font-size:clamp(44px,6vw,82px);line-height:1.12;letter-spacing:-.045em;margin:0 0 24px}.hero h1 span{display:block}.lead{font-size:clamp(17px,2vw,22px);font-weight:700;line-height:1.75;margin:0 0 16px}.desc{color:var(--muted);max-width:620px;margin:0 0 28px}.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 22px;border-radius:999px;font-weight:800;border:1px solid var(--ink)}.btn.primary{background:var(--ink);color:#fff}.btn.ghost{background:#fff}
+.hero-visual{position:relative;min-height:560px}.photo{position:absolute;overflow:hidden;border-radius:32px;box-shadow:var(--shadow);background:#ddd}.photo img{height:100%;object-fit:cover}.p1{inset:0 12% 24% 0;transform:rotate(-2deg)}.p2{width:46%;height:44%;right:0;bottom:5%;transform:rotate(3deg);border:8px solid var(--paper)}.dot{position:absolute;width:105px;height:105px;border-radius:50%;right:4%;top:2%;background:var(--yellow);display:grid;place-items:center;font-weight:900;text-align:center;line-height:1.2;transform:rotate(8deg)}
+.section{padding:92px 0}.section.alt{background:var(--cream)}.eyebrow{font-size:12px;letter-spacing:.18em;font-weight:900;color:var(--blue)}h2{font-size:clamp(32px,4vw,54px);line-height:1.25;margin:8px 0 20px;letter-spacing:-.03em}.intro{max-width:760px;color:var(--muted);font-size:17px}
+.philosophy{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:start}.bigline{font-size:clamp(30px,4vw,48px);font-weight:900;line-height:1.45}.bigline em{font-style:normal;color:var(--red)}
+.experiences{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:38px}.exp{padding:30px;border-radius:var(--radius);background:#fff;border:1px solid var(--line);min-height:270px;position:relative;overflow:hidden}.exp .num{font-size:13px;font-weight:900;letter-spacing:.12em}.exp h3{font-size:30px;margin:18px 0 8px}.exp p{color:var(--muted);margin:0 0 18px}.exp b{font-size:13px}.exp:after{content:"";position:absolute;width:150px;height:150px;border-radius:50%;right:-55px;bottom:-55px;opacity:.16}.exp:nth-child(1):after{background:var(--blue)}.exp:nth-child(2):after{background:var(--red)}.exp:nth-child(3):after{background:var(--yellow)}.exp:nth-child(4):after{background:var(--green)}
+.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:36px}.project{border-radius:var(--radius);overflow:hidden;background:#fff;box-shadow:var(--shadow)}.project .pic{aspect-ratio:4/3;overflow:hidden}.project .pic img{height:100%;object-fit:cover;transition:.35s}.project:hover .pic img{transform:scale(1.04)}.project .body{padding:22px}.tag{font-size:11px;font-weight:900;letter-spacing:.12em;color:var(--red)}.project h3{margin:8px 0;font-size:23px}.project p{margin:0;color:var(--muted);font-size:14px}
+.partner{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}.partner article{padding:28px;border-radius:22px;border:1px solid var(--line);background:#fff}.partner h3{margin:0 0 10px;font-size:20px}.partner p{margin:0;color:var(--muted);font-size:14px}
+.cta{background:var(--ink);color:white;border-radius:36px;padding:54px;display:grid;grid-template-columns:1fr auto;gap:30px;align-items:center}.cta h2{margin:0 0 12px}.cta p{margin:0;color:#ddd}.cta .btn{border-color:#fff;background:#fff;color:var(--ink)}
+footer{padding:44px 0 64px;color:var(--muted);font-size:13px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.foot strong{color:var(--ink)}
+@media(max-width:900px){.navlinks a:not(:last-child){display:none}.hero-grid,.philosophy{grid-template-columns:1fr}.hero{padding-top:28px}.hero-visual{min-height:420px}.projects,.partner{grid-template-columns:1fr}.experiences{grid-template-columns:1fr 1fr}.cta{grid-template-columns:1fr}}
+@media(max-width:620px){.wrap{width:min(100% - 28px,1160px)}.nav{height:68px}.brand img{width:42px;height:42px}.brand span{font-size:13px}.brand small{font-size:9px}.hero h1{font-size:46px}.hero-visual{min-height:360px}.p1{inset:0 5% 22% 0}.p2{width:52%;height:41%}.dot{width:80px;height:80px;font-size:12px}.section{padding:70px 0}.experiences{grid-template-columns:1fr}.cta{padding:34px 26px;border-radius:26px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top">
+      <img src="/asset-e2e122da6c9404fd.png" alt="ココラボ">
+      <span>ココロエデュケーションラボ<small>COCORO EDUCATION LAB.</small></span>
+    </a>
+    <nav class="navlinks">
+      <a href="#about">ココラボについて</a><a href="#activities">活動</a><a href="#projects">プロジェクト</a><a href="#partners">連携</a><a href="#contact">お問い合わせ</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="kicker">COCORO EDUCATION LAB.</div>
+      <h1><span>宝物は、</span><span>キミの見た景色。</span></h1>
+      <p class="lead">遊ぶ。つくる。表現する。つながる。<br>ひとつの体験が、子どもの世界を少し広げる。</p>
+      <p class="desc">ココロエデュケーションラボは、プログラミング、ゲーム、演劇、地域活動などを通じて、子どもたちの「やってみたい！」から未来をひらく体験をつくっています。</p>
+      <div class="actions"><a class="btn primary" href="#about">ココラボについて</a><a class="btn ghost" href="#activities">活動を見る</a></div>
+    </div>
+    <div class="hero-visual">
+      <figure class="photo p1"><img src="/asset-c640eb1cad009b28.JPG" alt="ココラボの活動風景"></figure>
+      <figure class="photo p2"><img src="/asset-acf1099d8678a260.jpg" alt="子どもたちの活動風景"></figure>
+      <div class="dot">PLAY<br>CREATE<br>CONNECT</div>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="about">
+  <div class="wrap philosophy">
+    <div><div class="eyebrow">ABOUT US</div><h2>体験することから、<br>未来はひらく。</h2></div>
+    <div>
+      <p class="bigline">知るだけではなく、<em>やってみる。</em><br>教わるだけではなく、自分でつくってみる。</p>
+      <p class="intro">プログラミング、演劇、ゲーム、地域活動。一見すると違う活動ですが、私たちが大切にしていることは同じです。子ども自身が体験し、考え、誰かと関わりながら、自分の世界を広げていくこと。生まれた環境に左右されず、多様な経験や出会いに触れられる機会を地域からつくっていきます。</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="activities">
+  <div class="wrap">
+    <div class="eyebrow">4 EXPERIENCES</div><h2>ココラボがつくる、4つの体験。</h2>
+    <p class="intro">事業名ではなく、子どもたちがそこで何を体験するのかを中心に活動を紹介します。</p>
+    <div class="experiences">
+      <article class="exp"><span class="num">01 / CREATE</span><h3>つくる。</h3><p>プログラミング、IchigoJam、ロボット、電子工作。つくって、試して、失敗して、もう一度つくる。</p><b>PCN東京・プログラミング教育 →</b></article>
+      <article class="exp"><span class="num">02 / EXPRESS</span><h3>表現する。</h3><p>演劇、ダンス、歌、コミュニケーション。自分の言葉や身体で表現し、誰かとひとつのものをつくる。</p><b>アクターズスクール・ここたね →</b></article>
+      <article class="exp"><span class="num">03 / PLAY</span><h3>あそぶ。</h3><p>ゲームやカードを入口に、地域、防災、プログラミングをもっと身近に。遊ぶことを学びのエンジンにします。</p><b>教育ゲーム・教材開発 →</b></article>
+      <article class="exp"><span class="num">04 / CONNECT</span><h3>つながる。</h3><p>地域、学校、行政、企業、こどもの居場所。人と人が出会い、新しい体験が生まれる場をつくります。</p><b>地域連携・ワークショップ →</b></article>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="projects">
+  <div class="wrap">
+    <div class="eyebrow">PICK UP PROJECTS</div><h2>いま、動いているプロジェクト。</h2>
+    <p class="intro">固定された事業一覧ではなく、その時々の活動を見せる場所へ。第一稿では既存の主要プロジェクトを配置しています。</p>
+    <div class="projects">
+      <a class="project" href="/pcntokyo">
+        <div class="pic"><img src="/asset-822920f2d6f4bec6.jpg" alt="PCN東京"></div>
+        <div class="body"><div class="tag">PROGRAMMING</div><h3>PCN東京</h3><p>「すべての子どもたちにプログラミングを。」つくる楽しさを地域へ届けます。</p></div>
+      </a>
+      <a class="project" href="https://hinata-actors-school.com/" target="_blank" rel="noopener">
+        <div class="pic"><img src="/asset-c354cc8c7c6e400a.jpg" alt="ココラボアクターズスクール"></div>
+        <div class="body"><div class="tag">EXPRESS</div><h3>ココラボアクターズスクール</h3><p>演技・歌・ダンスを通して、自分らしく表現する力とコミュニケーションを育みます。</p></div>
+      </a>
+      <a class="project" href="/cocotane">
+        <div class="pic"><img src="/asset-5c0d303dffe934b1.jpg" alt="未来教育劇団ここたね"></div>
+        <div class="body"><div class="tag">THEATER</div><h3>未来教育劇団ここたね</h3><p>「心に種を。」演劇を通して学びや気づきのきっかけを届ける活動です。</p></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="partners">
+  <div class="wrap">
+    <div class="eyebrow">WITH YOU</div><h2>学校・地域・企業のみなさまと。</h2>
+    <p class="intro">完成したプログラムを提供するだけでなく、「こんな体験をつくりたい」という段階から一緒に企画できます。</p>
+    <div class="partner">
+      <article><h3>学校・教育関係者</h3><p>プログラミング、表現教育、ゲームを活用した学びなど、授業・放課後・イベントに合わせて設計します。</p></article>
+      <article><h3>行政・地域団体</h3><p>地域イベント、こどもの居場所、地域教育など、地域の人や資源をつなぐ取り組みを一緒につくります。</p></article>
+      <article><h3>企業のみなさま</h3><p>CSR、社員参加型企画、子ども向け教育イベントなど、企業の強みを活かした体験を企画します。</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="wrap">
+    <div class="cta">
+      <div><div class="eyebrow" style="color:#f0b93d">LET'S CREATE TOGETHER</div><h2>子どもたちに、新しい景色を。</h2><p>学校・地域・企業との連携、出張ワークショップ、教育プログラムについてお気軽にご相談ください。</p></div>
+      <a class="btn" href="mailto:info@coco-labo.net">お問い合わせ</a>
+    </div>
+  </div>
+</section>
+</main>
+<footer><div class="wrap foot"><strong>一般社団法人ココロエデュケーションラボ</strong><span>© COCORO EDUCATION LAB. All Rights Reserved.</span></div></footer>
+</body></html>
