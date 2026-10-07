@@ -25,9 +25,10 @@ header{position:sticky;top:0;z-index:20;background:rgba(255,253,248,.92);backdro
 .projects{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:36px}.project{border-radius:var(--radius);overflow:hidden;background:#fff;box-shadow:var(--shadow)}.project .pic{aspect-ratio:4/3;overflow:hidden}.project .pic img{height:100%;object-fit:cover;transition:.35s}.project:hover .pic img{transform:scale(1.04)}.project .body{padding:22px}.tag{font-size:11px;font-weight:900;letter-spacing:.12em;color:var(--red)}.project h3{margin:8px 0;font-size:23px}.project p{margin:0;color:var(--muted);font-size:14px}
 .partner{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}.partner article{padding:28px;border-radius:22px;border:1px solid var(--line);background:#fff}.partner h3{margin:0 0 10px;font-size:20px}.partner p{margin:0;color:var(--muted);font-size:14px}
 .cta{background:var(--ink);color:white;border-radius:36px;padding:54px;display:grid;grid-template-columns:1fr auto;gap:30px;align-items:center}.cta h2{margin:0 0 12px}.cta p{margin:0;color:#ddd}.cta .btn{border-color:#fff;background:#fff;color:var(--ink)}
+.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:34px;align-items:start}.contact-info{padding:28px;border-radius:24px;background:var(--cream)}.contact-info h3{margin:0 0 14px;font-size:22px}.contact-info p{margin:0 0 10px;color:var(--muted)}.form{padding:30px;border:1px solid var(--line);background:#fff;border-radius:24px;box-shadow:var(--shadow)}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{margin-bottom:16px}.field label{display:block;font-size:13px;font-weight:800;margin-bottom:6px}.field input,.field select,.field textarea{width:100%;padding:13px 14px;border:1px solid #d8d2c7;border-radius:12px;background:#fff;font:inherit;color:var(--ink)}.field textarea{resize:vertical}.consent{font-size:13px;color:var(--muted);display:flex;gap:8px;align-items:flex-start;margin:10px 0 18px}.consent a{text-decoration:underline}.submit{width:100%;border:0;background:var(--ink);color:#fff;border-radius:999px;padding:14px 20px;font:inherit;font-weight:900;cursor:pointer}.submit:disabled{opacity:.55;cursor:wait}.status{min-height:1.5em;text-align:center;font-size:13px;margin:12px 0 0}.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
 footer{padding:44px 0 64px;color:var(--muted);font-size:13px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.foot strong{color:var(--ink)}
-@media(max-width:900px){.navlinks a:not(:last-child){display:none}.hero-grid,.philosophy{grid-template-columns:1fr}.hero{padding-top:28px}.hero-visual{min-height:420px}.projects,.partner{grid-template-columns:1fr}.experiences{grid-template-columns:1fr 1fr}.cta{grid-template-columns:1fr}}
-@media(max-width:620px){.wrap{width:min(100% - 28px,1160px)}.nav{height:68px}.brand img{width:42px;height:42px}.brand span{font-size:13px}.brand small{font-size:9px}.hero h1{font-size:46px}.hero-visual{min-height:360px}.p1{inset:0 5% 22% 0}.p2{width:52%;height:41%}.dot{width:80px;height:80px;font-size:12px}.section{padding:70px 0}.experiences{grid-template-columns:1fr}.cta{padding:34px 26px;border-radius:26px}}
+@media(max-width:900px){.navlinks a:not(:last-child){display:none}.hero-grid,.philosophy,.contact-grid{grid-template-columns:1fr}.hero{padding-top:28px}.hero-visual{min-height:420px}.projects,.partner{grid-template-columns:1fr}.experiences{grid-template-columns:1fr 1fr}.cta{grid-template-columns:1fr}}
+@media(max-width:620px){.wrap{width:min(100% - 28px,1160px)}.form-row{grid-template-columns:1fr}.form{padding:22px}.nav{height:68px}.brand img{width:42px;height:42px}.brand span{font-size:13px}.brand small{font-size:9px}.hero h1{font-size:46px}.hero-visual{min-height:360px}.p1{inset:0 5% 22% 0}.p2{width:52%;height:41%}.dot{width:80px;height:80px;font-size:12px}.section{padding:70px 0}.experiences{grid-template-columns:1fr}.cta{padding:34px 26px;border-radius:26px}}
 </style>
 </head>
 <body>
@@ -119,12 +120,63 @@ footer{padding:44px 0 64px;color:var(--muted);font-size:13px}.foot{display:flex;
 
 <section class="section" id="contact">
   <div class="wrap">
-    <div class="cta">
-      <div><div class="eyebrow" style="color:#f0b93d">LET'S CREATE TOGETHER</div><h2>子どもたちに、新しい景色を。</h2><p>学校・地域・企業との連携、出張ワークショップ、教育プログラムについてお気軽にご相談ください。</p></div>
-      <a class="btn" href="mailto:info@coco-labo.net">お問い合わせ</a>
+    <div class="eyebrow">CONTACT</div><h2>一緒に、新しい景色をつくりませんか。</h2>
+    <p class="intro">学校・地域・企業との連携、出張ワークショップ、スクール、取材など、お気軽にご相談ください。</p>
+    <div class="contact-grid" style="margin-top:34px">
+      <aside class="contact-info">
+        <h3>一般社団法人<br>ココロエデュケーションラボ</h3>
+        <p>〒125-0061<br>東京都葛飾区亀有5-33-4 浅野ビル2F</p>
+        <p><strong>03-6820-2041</strong></p>
+        <p><strong>info@coco-labo.net</strong></p>
+        <p style="margin-top:22px;font-size:13px">プログラミング、表現教育、地域連携、教育ゲームなど、企画段階からご相談いただけます。</p>
+      </aside>
+      <form class="form" id="cocolabo-contact-form">
+        <div class="form-row">
+          <div class="field"><label for="contact-name">お名前 *</label><input id="contact-name" name="name" type="text" autocomplete="name" required maxlength="80"></div>
+          <div class="field"><label for="contact-email">メールアドレス *</label><input id="contact-email" name="email" type="email" autocomplete="email" required maxlength="254"></div>
+        </div>
+        <div class="form-row">
+          <div class="field"><label for="contact-tel">電話番号</label><input id="contact-tel" name="tel" type="tel" autocomplete="tel" maxlength="40"></div>
+          <div class="field"><label for="contact-category">お問い合わせ種別</label><select id="contact-category" name="category"><option value="体験参加">体験参加</option><option value="出張講座・ワークショップ">出張講座・ワークショップ</option><option value="スクールについて">スクールについて</option><option value="取材・連携・協働">取材・連携・協働</option><option value="その他">その他</option></select></div>
+        </div>
+        <div class="field"><label for="contact-message">お問い合わせ内容 *</label><textarea id="contact-message" name="message" rows="7" required maxlength="5000"></textarea></div>
+        <div class="hp" aria-hidden="true"><label for="contact-website">Website</label><input id="contact-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+        <label class="consent"><input id="contact-consent" name="consent" type="checkbox" required><span><a href="/privacypolicy" target="_blank" rel="noopener">個人情報保護方針</a>に同意のうえ送信します。</span></label>
+        <button class="submit" id="contact-submit" type="submit">送信する</button>
+        <p class="status" id="contact-status" role="status" aria-live="polite"></p>
+      </form>
     </div>
   </div>
 </section>
 </main>
-<footer><div class="wrap foot"><strong>一般社団法人ココロエデュケーションラボ</strong><span>© COCORO EDUCATION LAB. All Rights Reserved.</span></div></footer>
+<footer><div class="wrap foot"><strong>一般社団法人ココロエデュケーションラボ</strong><span><a href="/privacypolicy">個人情報保護方針</a>　© 2017–2026 COCORO EDUCATION LAB.</span></div></footer>
+<script>
+(function(){
+  var form=document.getElementById('cocolabo-contact-form');
+  if(!form) return;
+  var button=document.getElementById('contact-submit');
+  var status=document.getElementById('contact-status');
+  form.addEventListener('submit',async function(e){
+    e.preventDefault();
+    if(!form.reportValidity()) return;
+    button.disabled=true; button.textContent='送信中…'; status.textContent='';
+    try{
+      var payload={
+        name:form.elements.name.value.trim(),
+        email:form.elements.email.value.trim(),
+        tel:form.elements.tel.value.trim(),
+        category:form.elements.category.value,
+        message:form.elements.message.value.trim(),
+        website:form.elements.website.value
+      };
+      var res=await fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
+      var data={}; try{data=await res.json();}catch(_e){}
+      if(!res.ok) throw new Error(data.error||'送信に失敗しました。');
+      form.reset(); status.style.color='#167a3a'; status.textContent='お問い合わせを送信しました。ありがとうございます。';
+    }catch(err){
+      status.style.color='#b42318'; status.textContent=err&&err.message?err.message:'送信に失敗しました。時間をおいて再度お試しください。';
+    }finally{button.disabled=false;button.textContent='送信する';}
+  });
+})();
+</script>
 </body></html>
